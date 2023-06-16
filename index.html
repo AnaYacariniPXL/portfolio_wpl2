@@ -5,12 +5,14 @@
     <title>Ana Yacarini portfolio </title>
     <!--    FAVICON-->
     <link rel="icon" type="image/x-icon" href="assets/favicon_''">
-    <!-- CSS-->
-    <link rel="stylesheet" href="css/style.css">
+
     <!-- BOOTSTRAP CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
           integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
-
+    <link rel="stylesheet" href="../bootstrap/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="../bootstrap/bootstrap-reboot.min.css">
+    <!-- CSS-->
+    <link rel="stylesheet" href="css/style.css">
     <!--ICONEN BOOTSTRAP-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
     <!--    METADATA-->
@@ -19,12 +21,15 @@
     <meta name="description" content="portfolio">
     <meta name="keywords" content="HTML,CSS,JAVASCRIPT">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+
 </head>
 <body>
 
 
 <!--NAV-->
-<nav class="navbar fixed-top bg-body-tertiary fixed-top">
+<nav class="navbar fixed-top bg-body-tertiary ">
     <div class="container-fluid">
         <a class="navbar-brand" href="#">GonYa</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
@@ -47,7 +52,8 @@
 
 
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="pages/ervaring.html" role="button" data-bs-toggle="dropdown"
+                        <a class="nav-link dropdown-toggle" href="pages/ervaring.html" role="button"
+                           data-bs-toggle="dropdown"
                            aria-expanded="false">
                             Ervaring
                         </a>
@@ -80,7 +86,7 @@
         </div>
 
 
-        <div class="header-banner col-8 text-center " >
+        <div class="header-banner col-8 text-center ">
 
             <h1>Hallo! Mijn naam is Ana </h1>
             <h2>en ik studeer digital vormgeving. Ik breng graag mijn creativiteit en kritische
@@ -89,20 +95,22 @@
 
         </div>
 
-        <ul class="nav justify-content-center">
-            <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Diverse vaardigheden</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Recente ervaring</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Showcase</a>
-            </li>
 
-        </ul>
+       <div class="navbar secondary-nav">
+            <ul class="navbar-nav justify-content-center">
+                <li class="nav-item">
+                   <a class="nav-link active" aria-current="page" href="#">Diverse vaardigheden</a>
+               </li>
+               <li class="nav-item">
+                   <a class="nav-link" href="#">Recente ervaring</a>
+                </li>
+              <li class="nav-item">
+                    <a class="nav-link" href="#">Showcase</a>
+               </li>
+            </ul>
+       </div>
+
     </div>
-
 
 </div>
 
@@ -111,8 +119,8 @@
 
 <!--MAIN-->
 <div class="main container">
-    <div class="row values-skills">
-        <div class="col">
+    <div class="row values-skills my-3 justify-content-center ">
+        <div class="col-xs-10 col-sm-10 col-md-4 col-xl-4 ">
             <h3>Diverse vaardigheden </h3>
             <p>Ik ben in staat om projecten op het gebied van UI/UX-design, illustratie en front-end uit te voeren, met
                 een solide kennisbasis. Hoewel mijn voorkeur uitgaat naar UX-design, heb ik onlangs een sterke
@@ -120,33 +128,33 @@
                 ontwikkelen.</p>
             <button>Meer info</button>
         </div>
-        <div class="col">
+        <div class="col-xs-10 col-sm-5 col-md 3">
             <!--            web design by Wilson Joseph from <a href="https://thenounproject.com/browse/icons/term/web-design/" target="_blank" title="web design Icons">Noun Project</a>-->
             <p>UX/UI Design</p>
             <img src="assets/iconen/noun_project/noun-ux-4262282.png" alt="" class="img-fluid">
         </div>
-        <div class="col">
+        <div class="col-xs-10 col-sm-5 col-md 3">
             <!--            graphics tool by Aiden Icons from <a href="https://thenounproject.com/browse/icons/term/graphics-tool/" target="_blank" title="graphics tool Icons">Noun Project</a>-->
             <p>Illustratie</p>
             <img src="assets/iconen/noun_project/noun-graphics-5751650.png" alt="" class="img-fluid">
         </div>
-        <div class="col">
+        <div class="col-xs-10 col-sm-5 col-md 3">
             <!--            web design by Wilson Joseph from <a href="https://thenounproject.com/browse/icons/term/web-design/" target="_blank" title="web design Icons">Noun Project</a>-->
             <p>Front-End Web Development</p>
             <img src="assets/iconen/noun_project/noun-web-design-74613.png" alt="" class="img-fluid">
         </div>
 
     </div>
-    <div class="row ervaring-wpl">
+    <div class="row ervaring-wpl my-3">
 
 
-        <div class="col-6">
-            <img src="assets/case_ownit/moodboard%20OWNIT2.png" alt="" class="img-fluid rounded">
+        <div class=" col-xs-12 col-sm-10 col-md-6 order-1 order-md-0 my-4">
+            <img src="assets/case_ownit/moodboard%20OWNIT2.png" alt="" class="img-fluid rounded-4">
             <img src="assets/case_ownit/image_png.png" alt="" class="img-fluid">
             <img src="assets/case_ownit/image_png%20(1).png" alt="" class="img-fluid">
         </div>
 
-        <div class="col-4">
+        <div class="col-xs-12 col-sm-10 col-md-6 order-0 order-md-1 my-4">
             <h2>Recente Ervaring</h2>
             <p>In mijn recente ervaring heb ik meegewerkt aan een opwindend project voor de ontwikkeling van een
                 open-source slimme laadpaal. Ik was bij de branding, website-ontwikkeling en productdesign betrokken,
@@ -160,7 +168,7 @@
 
 
     <div class="row showcase">
-        <div class="col-6">
+        <div class="col-xs-12 col-sm-10 col-md-6 my-4">
             <h3>Showcase</h3>
             <p>Ik zou graag een deel van mijn werk willen delen op het gebied van frontend design en UX/UI. Ik ben
                 enthousiast om jullie een inkijkje te geven in mijn creatieve portfolio en de resultaten te tonen van
@@ -170,10 +178,11 @@
         </div>
 
 
-        <div class="col-6">
-            <img src="assets/portfolio_images/illustratie%20idee%204.jpg" alt="" class="img-fluid rounded">
-            <img src="assets/portfolio_images/illustratie/het_ijshuis_kleur.jpg" alt="" class="img-fluid">
-            <img src="assets/portfolio_images/staapgids/stap.PNG" alt="" class="img-fluid">
+        <div class="col-xs-12 col-sm-10 col-md-6 my-4">
+            <img src="assets/portfolio_images/illustratie/illustratie%20idee%204.jpg" alt=""
+                 class="img-fluid rounded-4">
+            <img src="assets/portfolio_images/illustratie/ai.jpg" alt="" class="img-fluid rounded-4">
+            <img src="assets/portfolio_images/staapgids/stap.PNG" alt="" class="img-fluid rounded-4">
         </div>
 
 
@@ -183,8 +192,8 @@
 
 </div>
 <!--FOOTER-->
-<div class="footer container">
-    <div class="row">
+<div class="footer container-fluid">
+    <div class="row justify-content-around">
         <div class="col">
             <div class="footer-adres">
                 <h3>Contact</h3>
@@ -195,9 +204,9 @@
                 </ul>
             </div>
         </div>
-        <div class="col">
-            <div class="footer-social">    <!--iconen verkregen van pagina web www.icoonfinder.com -->
-                <ul>
+        <div class="col d-flex ">
+            <div class="footer-social ">    <!--iconen verkregen van pagina web www.icoonfinder.com -->
+                <ul class="d-flex ">
 
                     <li><a><i class="bi bi-linkedin"></i></a></li>
                     <li><a><i class="bi bi-instagram"></i></a></li>
@@ -220,6 +229,9 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
         crossorigin="anonymous"></script>
+
+
+
 </body>
 
 </html>
