@@ -4,12 +4,178 @@
     box-sizing: border-box;
 }
 
+h1{
+    font-family: 'Bebas Neue', sans-serif;
+}
 
+/*NAV PRINCIPAL*/
+.sticky-nav{
+    width: 100%;
+}
+.navbar-toggler{
+    border: none;
+
+
+}
+.navbar-toggler-icon{
+    border: none;
+}
 .navbar-toggler-icon:active {
-    transform: rotate(90deg)
+    transform: rotate(90deg);
+    border: none;
+
 }
 
-.card-overlay{
-    height: 100%;
+/*OVERZICHT OFF CANVAS*/
+
+.offcanvas-left {
+    width: 50vw;
+    height: 100vh;
+    background-color: #000000;
+    position: fixed;
+    left: -50vw;
+    z-index: -1;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.20);
+    border-radius: 10px;
+    overflow: auto;
+    overflow-x: hidden;
+    /*transition: right 10s linear;*/
+    transition: right 2.8s cubic-bezier(.25,.25,.85,.81);
+}
+#offcanvasNavbar{
+    width: 50vw;
+
+}
+.offcanvas-left.show {
+left: 0;
 }
 
+.offcanvas-left .left-img {
+    width: 50%;
+    position: absolute;
+    box-shadow: 0 15px 60px rgba(0, 0, 0, 0.8);
+    opacity: 0.7;
+    border-radius: 10px;
+}
+
+.offcanvas-left .left-img-1 {
+    top: 2%;
+    left: 2%;
+}
+
+.offcanvas-left .left-img-2 {
+    top: 3%;
+    left: 4%;
+}
+
+
+
+.offcanvas-left .left-img-3{
+    top: 30%;
+    left: 25%;
+}
+
+
+
+
+
+    /*background-color: #6f42c1;*/
+
+/*.card-overlay{*/
+/*    height: 100%;*/
+/*}*/
+
+/*HEADER*/
+.header{
+    background-image: url("../assets/unplash_images/girl-with-red-hat-012SxFCCqGA-unsplash.jpg");
+
+}
+.header h1{
+    font-size: 60px;
+}
+
+/*secondary navbar*/
+.secondary-navbar{
+    position: sticky;
+    z-index: 100;
+    top: 55px;
+    background-color: #000000;
+    min-height: 80px;
+    width: 100%;
+
+}
+.secondary-navbar ul{
+    border: 1px solid #343a40;
+}
+.secondary-navbar li{
+    margin: 0 35px;
+}
+.secondary-navbar a{
+    color: #ffffff;
+}
+
+.secondary-navbar a:hover{
+
+    border: 2px solid #ffffff;
+color: #ffffff;
+    background-color: #343a40;
+    border-radius: 20px;
+}
+.secondary-navbar a:active{
+    filter: invert(100);
+
+
+
+}
+.secondary-navbar a:focus{
+    color: #ffffff;
+    background-color: #000000;
+    filter: invert(100);
+    border-radius: 20px;
+
+
+
+}
+
+/*MAIN*/
+
+.ervaring-wpl{
+    margin: 70px 0;
+    background-color: #000000;
+    color: #ffffff;
+
+}
+.values-skills{
+    height: 400px;
+}
+.values-skills img{
+    width: 70%;
+}
+button{
+    padding: 10px 15px ;
+    border-radius: 20px ;
+    background-color: #20c997;
+    border: none;
+    font-weight: bold;
+}
+.hard-skills img{
+    max-width: 50%;
+    text-align: center;
+}
+/*FOOTER*/
+.footer{
+    min-height: 250px;
+    background-color: #212529;
+
+}
+
+.footer ul li , .footer h3{
+    color: #ffffff;
+}
+.footer ul li{
+    list-style: none;
+}
+.footer-social i{
+    font-size: 35px;
+
+}

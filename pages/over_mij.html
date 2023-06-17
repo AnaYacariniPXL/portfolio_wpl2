@@ -8,7 +8,8 @@
     <!-- CSS-->
     <link rel="stylesheet" href="../css/style.css">
     <!-- BOOTSTRAP CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <link rel="stylesheet" href="../../bootstrap/bootstrap-grid.min.css">
     <link rel="stylesheet" href="../../bootstrap/bootstrap-reboot.min.css">
     <!--ICONEN BOOTSTRAP-->
@@ -21,19 +22,67 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 
-
 </head>
 <body>
+<!--NAV-->
+<nav class="navbar fixed-top bg-white ">
+    <div class="container-fluid ">
+        <a class="navbar-brand" href="index.html">GonYa</a>
+        <button class="navbar-toggler overzicht-button" type="button" data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasNavbar"
+                aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+             aria-labelledby="offcanvasNavbarLabel">
+
+            <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body offcanvas-right">
+
+                <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="../pages/over_mij.html">Over mij</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="../pages/ervaring.html">Ervaring</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="../pages/portfolio.html">Portfolio</a>
+                    </li>
+
+
+                </ul>
+
+
+            </div>
+            <div class="offcanvas-left show ">
+                <img src="../assets/unplash_images/valentina-conde-pPFZibBBLGc-unsplash.jpg" alt=""
+                     class="img-fluid left-img left-img-1">
+                <img src="assets/unplash_images/valentina-conde-pPFZibBBLGc-unsplash.jpg" alt=""
+                     class="img-fluid left-img left-img-2">
+                <img src="assets/unplash_images/valentina-conde-pPFZibBBLGc-unsplash.jpg" alt=""
+                     class="img-fluid left-img left-img-3 ">
+            </div>
+        </div>
+
+    </div>
+</nav>
+<!--EIND NAV-->
 <!--MAIN-->
-<div class="main container-fluid " >
+<div class="main container-fluid ">
 
-    <div class="row justify-content-start align-items-center" >
-        <div class="brand-img col-4">
-            <img src="../assets/persoonljke_foto/foto_intro.png" class="img-fluid" alt="profiel_foto" >
-
+    <div class="row justify-content-start align-items-end ">
+        <div class="brand-img col-sm-10 col-md-4">
+            <img src="../assets/persoonljke_foto/foto_intro.png" class="img-fluid" alt="profiel_foto"
+                 style="height: 100vh">
 
         </div>
-        <div class="col-4 align-content-end">
+        <div class="col-xs-10 col-sm-10 col-md-7 col-lg-6 align-content-end mx-auto">
             <h1>Hallo! Ik ben Ana</h1>
             <p>Graag wil ik mezelf voorstellen als een gepassioneerde professional op het gebied van ontwerp en
                 gebruikerservaring.
@@ -45,159 +94,178 @@
                 ernaar om dit evenwicht te bereiken in al mijn werk. Ik kijk ernaar uit om mijn passie voor design te
                 delen en samen te werken aan inspirerende projecten.</p>
 
-            <p>Niet alleen ben ik gepassioneerd door ontwerp en gebruikerservaring, maar mijn achtergrond draagt ook bij aan
+            <p>Niet alleen ben ik gepassioneerd door ontwerp en gebruikerservaring, maar mijn achtergrond draagt ook bij
+                aan
                 mijn unieke perspectief. Ik ben oorspronkelijk afkomstig uit Peru en heb enige tijd in Spanje gewoond
                 voordat ik bijna vijf jaar geleden naar Belgie ben verhuisd. Samen met mijn partner en onze dochter
                 geniet ik van het leven hier en heb ik de kans gehad om me te omringen met diverse culturen en ideeën.
                 Deze internationale ervaring heeft mijn creative visie verrijt en me geholpen om een breder begrip te
                 krijgen van verschillende esthetiek en designprincipes. Ik ben dankbaar voor de kansen die ik heb gehad
                 om te groeien en te leren in verschillende omgevinden, en ik ben heel enthousiast om mijn unieke
-                perspectief toe te passen op mijn ontwerpwerk. </p>
+                perspectief toe te passen op mijn ontwerpwerk.
+            </p>
         </div>
-<div class="row hard-skills">
-    <div class="col-12">
-
-        <h2>Natuurlijk! Hier zijn enkele voorbeelden van mijn hard skills:</h2>
-
     </div>
-<!--    <div class="col">-->
-<!--        &lt;!&ndash;            web design by Wilson Joseph from <a href="https://thenounproject.com/browse/icons/term/web-design/" target="_blank" title="web design Icons">Noun Project</a>&ndash;&gt;-->
-<!--        <h3>UX/UI Design</h3>-->
-<!--        <img src="../assets/noun-ux-4262282.png" alt="" class="img-fluid">-->
+    <div class="row hard-skills my-5 justify-content-center">
 
-<!--    </div>-->
-<!--    <div class="col">-->
-<!--        &lt;!&ndash;            graphics tool by Aiden Icons from <a href="https://thenounproject.com/browse/icons/term/graphics-tool/" target="_blank" title="graphics tool Icons">Noun Project</a>&ndash;&gt;-->
-<!--        <h3>Illustratie</h3>-->
-<!--        <img src="../assets/noun-graphics-5751650.png" alt="" class="img-fluid">-->
-<!--    </div>-->
-<!--    <div class="col">-->
-<!--        &lt;!&ndash;            web design by Wilson Joseph from <a href="https://thenounproject.com/browse/icons/term/web-design/" target="_blank" title="web design Icons">Noun Project</a>&ndash;&gt;-->
-<!--        <h3>Front-End Web Development</h3>-->
-<!--        <img src="../assets/noun-web-design-74613.png" alt="" class="img-fluid">-->
-<!--    </div>-->
 
-    <div class="row row-cols-1 row-cols-md-3 g-4">
-        <div class="col">
-            <div class="card h-100">
-                <img src="../assets/iconen/noun_project/noun-ux-4262282.png" alt="" class=" card-img-top img-fluid" >
-                <div class="card-body">
-                    <h5 class="card-title">UX/UI Design</h5>
-                    <p class="card-text">UI/UX-design: Ik heb ervaring met het creëren van intuïtieve gebruikersinterfaces en het ontwerpen van boeiende gebruikerservaringen. Ik ben bekend met tools zoals Adobe XD, Sketch en Figma om wireframes, prototypes en visuele ontwerpen te maken.</p>
+        <div class="col-sm-10">
+            <h2>Natuurlijk! Hier zijn enkele voorbeelden van mijn hard skills:</h2>
+            <div class="row row-cols-1 row-cols-md-3 g-4 my-3">
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="../assets/iconen/noun_project/noun-ux-4262282.png" alt=""
+                             class=" card-img-top img-fluid">
+                        <div class="card-body">
+                            <h5 class="card-title">UX/UI Design</h5>
+                            <p class="card-text">UI/UX-design: Ik heb ervaring met het creëren van intuïtieve
+                                gebruikersinterfaces en het ontwerpen van boeiende gebruikerservaringen. Ik ben
+                                bekend met tools zoals Adobe XD, Sketch en Figma om wireframes, prototypes en
+                                visuele ontwerpen te maken.</p>
+                        </div>
+                    </div>
                 </div>
-            </div>
-        </div>
-        <div class="col">
-            <div class="card h-100">
-                <img src="../assets/iconen/noun_project/noun-web-design-74613.png" class="card-img-top img-fluid" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Front-End Web Development</h5>
-                    <p class="card-text">Ik ben bedreven in het omzetten van ontwerpen naar goed gestructureerde en responsieve frontend-code. Mijn vaardigheden omvatten HTML, CSS en JavaScript. Daarnaast ben ik voortdurend bezig met het uitbreiden van mijn technische kennis en ben ik bezig met het leren van aanvullende tools en frameworks, waaronder PHP, Sass, Vue.js, WordPress en Craft CMS. </p>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="../assets/iconen/noun_project/noun-web-design-74613.png"
+                             class="card-img-top img-fluid" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Front-End Web Development</h5>
+                            <p class="card-text">Ik ben bedreven in het omzetten van ontwerpen naar goed
+                                gestructureerde en responsieve frontend-code. Mijn vaardigheden omvatten HTML, CSS
+                                en JavaScript. Daarnaast ben ik voortdurend bezig met het uitbreiden van mijn
+                                technische kennis en ben ik bezig met het leren van aanvullende tools en frameworks,
+                                waaronder PHP, Sass, Vue.js, WordPress en Craft CMS. </p>
+                        </div>
+                    </div>
                 </div>
-            </div>
-        </div>
-        <div class="col">
-            <div class="card h-100">
-                <img src="../assets/iconen/noun_project/noun-graphics-5751650.png" class="card-img-top img-fluid" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Grafisch ontwerp en illustratie</h5>
-                    <p class="card-text">Ik ben bekwaam in het gebruik van grafische ontwerptools zoals Adobe Photoshop, Illustrator en InDesign. Ik kan aantrekkelijke visuals, iconen en illustraties creëren die consistent zijn met de merkidentiteit.</p>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="../assets/iconen/noun_project/noun-graphics-5751650.png"
+                             class="card-img-top img-fluid" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Grafisch ontwerp en illustratie</h5>
+                            <p class="card-text">Ik ben bekwaam in het gebruik van grafische ontwerptools zoals
+                                Adobe Photoshop, Illustrator en InDesign. Ik kan aantrekkelijke visuals, iconen en
+                                illustraties creëren die consistent zijn met de merkidentiteit.</p>
+                        </div>
+                    </div>
                 </div>
-            </div>
-        </div>
-        <div class="col">
-            <div class="card h-100">
-                <img src="../assets/iconen/noun_project/noun-prototyping-4450976.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Prototyping en interactieontwerp</h5>
-                    <p class="card-text"> Ik heb ervaring met het maken van interactieve prototypes om gebruikerservaring te testen en te optimaliseren. Ik maak gebruik van tools zoals InVision, Adobe XD om een realistische gebruikservaring te stimuleren. </p>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="../assets/iconen/noun_project/noun-prototyping-4450976.png" class="card-img-top"
+                             alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Prototyping en interactieontwerp</h5>
+                            <p class="card-text"> Ik heb ervaring met het maken van interactieve prototypes om
+                                gebruikerservaring te testen en te optimaliseren. Ik maak gebruik van tools zoals
+                                InVision, Adobe XD om een realistische gebruikservaring te stimuleren. </p>
+                        </div>
+                    </div>
                 </div>
-            </div>
-        </div>
-        <div class="col">
-            <div class="card h-100">
-                <img src="../assets/iconen/noun_project/noun-branding-4736166.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Branding en visueel identiteitsontwerp:</h5>
-                    <p class="card-text">Ik ben in staat om sterke merkidentiteiten te ontwikkelen, inclusief logo-ontwerp, kleurenpaletten en typografie. Ik kan een consistente visuele uitstraling creëren die de waarden en boodschap van een merk weerspiegelt.</p>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="../assets/iconen/noun_project/noun-branding-4736166.png" class="card-img-top"
+                             alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Branding en visueel identiteitsontwerp:</h5>
+                            <p class="card-text">Ik ben in staat om sterke merkidentiteiten te ontwikkelen,
+                                inclusief logo-ontwerp, kleurenpaletten en typografie. Ik kan een consistente
+                                visuele uitstraling creëren die de waarden en boodschap van een merk
+                                weerspiegelt.</p>
+                        </div>
+                    </div>
                 </div>
-            </div>
-        </div>
-        <div class="col">
-            <div class="card h-100">
-                <img src="../assets/iconen/noun_project/noun-user-862066%20(1).png" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Usability Testing en User Research</h5>
-                    <p class="card-text"> Ik heb ervaring met het uitvoeren van usability tests en het uitvoeren van gebruikersonderzoek. Ik kan inzichten verzamelen over het gedrag en de behoeften van gebruikers, en deze gebruiken om ontwerpen te optimaliseren voor een betere gebruikerservaring.</p>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="../assets/iconen/noun_project/noun-user-862066%20(1).png" class="card-img-top"
+                             alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Usability Testing en User Research</h5>
+                            <p class="card-text"> Ik heb ervaring met het uitvoeren van usability tests en het
+                                uitvoeren van gebruikersonderzoek. Ik kan inzichten verzamelen over het gedrag en de
+                                behoeften van gebruikers, en deze gebruiken om ontwerpen te optimaliseren voor een
+                                betere gebruikerservaring.</p>
+                        </div>
+                    </div>
                 </div>
-            </div>
-        </div>
 
-        <p>Deze hard skills stellen me in staat om een breed scala aan projecten aan te pakken en waarde toe te voegen aan het ontwerpproces. Ik ben altijd bereid om nieuwe vaardigheden te leren en mijn kennis up-to-date te houden in een snel veranderende technologische omgeving.</p>
+                <p>Deze hard skills stellen me in staat om een breed scala aan projecten aan te pakken en waarde toe
+                    te voegen aan het ontwerpproces. Ik ben altijd bereid om nieuwe vaardigheden te leren en mijn
+                    kennis up-to-date te houden in een snel veranderende technologische omgeving.</p>
+            </div>
+        </div>
     </div>
 </div>
+<div class="row tools">
+    <h2> Hier is een lijst van tools die ik regelmatig gebruik:</h2>
+    <p>Dit is een overzicht van de tools die ik momenteel gebruik om mijn werk efficiënt uit te voeren. Ik ben ook
+        altijd bereid om nieuwe tools en technologieën te verkennen en te leren, omdat ik geloof in voortdurende
+        groei en het streven naar de beste oplossingen voor mijn projecten.</p>
+    <div class="col">
+        <figure>
+            <img src="../assets/iconen/flaticon/html-5.png" alt="tools_design" class="img-fluid"/>
+            <img src="../assets/iconen/flaticon/css-3.png" alt="tools_design" class="img-fluid"/>
+            <img src="../assets/iconen/flaticon/js.png" alt="tools_design" class="img-fluid"/>
+            <img src="../assets/iconen/flaticon/bootstrap.png" alt="tools_design" class="img-fluid"/>
+            <img src="../assets/iconen/flaticon/wordpress.png" alt="tools_design" class="img-fluid"/>
+            <img src="../assets/iconen/flaticon/c_icon.PNG" alt="tools_design" class="img-fluid"/>
+            <img src="../assets/iconen/flaticon/photoshop.png" alt="tools_design" class="img-fluid"/>
+            <img src="../assets/iconen/flaticon/illustrator%20(2).png" alt="tools_design" class="img-fluid"/>
+
+            <img src="../assets/iconen/flaticon/xd.png" alt="tools_design" class="img-fluid"/>
+            <img src="../assets/iconen/flaticon/jira.png" alt="tools_design" class="img-fluid"/>
+            <img src="../assets/iconen/flaticon/confluence.png" alt="tools_design" class="img-fluid"/>
+            <img src="../assets/iconen/flaticon/github-sign.png" alt="tools_design" class="img-fluid"/>
+
+        </figure>
     </div>
-    <div class="row tools">
-        <h2> Hier is een lijst van tools die ik regelmatig gebruik:</h2>
-        <p>Dit is een overzicht van de tools die ik momenteel gebruik om mijn werk efficiënt uit te voeren. Ik ben ook altijd bereid om nieuwe tools en technologieën te verkennen en te leren, omdat ik geloof in voortdurende groei en het streven naar de beste oplossingen voor mijn projecten.</p>
-        <div class="col">
-            <figure>
-                <img src="../assets/iconen/flaticon/html-5.png" alt="tools_design" class="img-fluid"/>
-                <img src="../assets/iconen/flaticon/css-3.png" alt="tools_design" class="img-fluid"/>
-                <img src="../assets/iconen/flaticon/js.png" alt="tools_design" class="img-fluid"/>
-                <img src="../assets/iconen/flaticon/bootstrap.png" alt="tools_design" class="img-fluid"/>
-                <img src="../assets/iconen/flaticon/wordpress.png" alt="tools_design" class="img-fluid"/>
-                <img src="../assets/iconen/flaticon/c_icon.PNG" alt="tools_design" class="img-fluid"/>
-                <img src="../assets/iconen/flaticon/photoshop.png" alt="tools_design" class="img-fluid"/>
-                <img src="../assets/iconen/flaticon/illustrator%20(2).png" alt="tools_design" class="img-fluid"/>
-
-                <img src="../assets/iconen/flaticon/xd.png" alt="tools_design" class="img-fluid"/>
-                <img src="../assets/iconen/flaticon/jira.png" alt="tools_design" class="img-fluid"/>
-                <img src="../assets/iconen/flaticon/confluence.png" alt="tools_design" class="img-fluid"/>
-                <img src="../assets/iconen/flaticon/github-sign.png" alt="tools_design" class="img-fluid"/>
-
-            </figure>
-        </div>
-        <div class="col">
-            <h2>in het leerproces</h2>
-            <p>Momenteel ben ik bezig met het leren van PHP voor backend-ontwikkeling, Sass voor geavanceerdere CSS-styling, Vue.js voor het bouwen van interactieve gebruikersinterfaces, WordPress voor contentbeheersystemen en Craft CMS voor het ontwikkelen van op maat gemaakte websites. Door deze extra vaardigheden te verwerven, ben ik in staat om een breder scala aan projecten aan te pakken en oplossingen te bieden die aansluiten bij de specifieke behoeften van mijn klanten.</p>
-            <figure>
-                <img src="../assets/iconen/flaticon/figma.png" alt="tools_design" class="img-fluid"/>
-                <img src="../assets/iconen/flaticon/sass.png" alt="tools_design" class="img-fluid"/>
-                <img src="../assets/iconen/flaticon/php.png" alt="tools_design" class="img-fluid"/>
-                <img src="../assets/iconen/icon_icons/file_type_vue_icon_130078.png" alt="tools_design" class="img-fluid"/>
-            </figure>
-        </div>
-
+    <div class="col">
+        <h2>in het leerproces</h2>
+        <p>Momenteel ben ik bezig met het leren van PHP voor backend-ontwikkeling, Sass voor geavanceerdere
+            CSS-styling, Vue.js voor het bouwen van interactieve gebruikersinterfaces, WordPress voor
+            contentbeheersystemen en Craft CMS voor het ontwikkelen van op maat gemaakte websites. Door deze extra
+            vaardigheden te verwerven, ben ik in staat om een breder scala aan projecten aan te pakken en
+            oplossingen te bieden die aansluiten bij de specifieke behoeften van mijn klanten.</p>
+        <figure>
+            <img src="../assets/iconen/flaticon/figma.png" alt="tools_design" class="img-fluid"/>
+            <img src="../assets/iconen/flaticon/sass.png" alt="tools_design" class="img-fluid"/>
+            <img src="../assets/iconen/flaticon/php.png" alt="tools_design" class="img-fluid"/>
+            <img src="../assets/iconen/icon_icons/file_type_vue_icon_130078.png" alt="tools_design"
+                 class="img-fluid"/>
+        </figure>
     </div>
 
-    <div class="row justify-content-center">
-        <div class="col-md-6">
-            <h2>Contact</h2>
-            <div class="card">
+</div>
 
-                <div class="card-body">
+<div class="row justify-content-center">
+    <div class="col-md-6">
+        <h2>Contact</h2>
+        <div class="card">
 
-                    <form action="mailto:ana.yacarinigonzales@" method="POST" enctype="text/plain">
-                        <div class="form-group">
-                            <label for="naam"></label>
-                            <input type="text" class="form-control" id="naam" placeholder="Naam">
-                        </div>
-                        <div class="form-group">
-                            <label for="email"></label>
-                            <input type="email" class="form-control" id="email" placeholder="E-mail">
-                        </div>
+            <div class="card-body">
 
-                        <div class="form-group">
-                            <label for="bericht"></label>
-                            <textarea class="form-control" id="bericht" rows="5" placeholder="Typ hier je bericht"></textarea>
-                        </div>
-                        <button type="submit" class="btn btn-primary btn-block ">Verstuur</button>
-                    </form>
-                </div>
+                <form action="mailto:ana.yacarinigonzales@" method="POST" enctype="text/plain">
+                    <div class="form-group">
+                        <label for="naam"></label>
+                        <input type="text" class="form-control" id="naam" placeholder="Naam">
+                    </div>
+                    <div class="form-group">
+                        <label for="email"></label>
+                        <input type="email" class="form-control" id="email" placeholder="E-mail">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="bericht"></label>
+                        <textarea class="form-control" id="bericht" rows="5"
+                                  placeholder="Typ hier je bericht"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-block ">Verstuur</button>
+                </form>
             </div>
         </div>
     </div>
+</div>
 
 </div>
 
