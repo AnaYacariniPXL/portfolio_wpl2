@@ -84,10 +84,15 @@ left: 0;
 
 
 /*HEADER*/
-.header{
+
+
+.header-cta{
     background-image: url("../assets/unplash_images/girl-with-red-hat-012SxFCCqGA-unsplash.jpg");
-    background-size: cover;
-    background-position: center;
+    /*background-size: auto ;*/
+    /*!*background-repeat: no-repeat;*!*/
+    /*background-position: center center;*/
+    /*overflow-x: hidden;*/
+
 
 
 }
@@ -139,7 +144,9 @@ color: #ffffff;
 }
 
 /*MAIN*/
-
+/*.main{*/
+/*    background-image: url("../assets/unplash_images/efe-kurnaz-RnCPiXixooY-unsplash.jpg");*/
+/*}*/
 .ervaring-wpl{
     margin: 70px 0;
     background-color: #000000;
