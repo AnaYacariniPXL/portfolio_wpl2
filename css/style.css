@@ -9,13 +9,11 @@ h1{
 }
 
 /*NAV PRINCIPAL*/
-.sticky-nav{
-    width: 100%;
-}
+/*.sticky-nav{*/
+/*    width: 100vw;*/
+/*}*/
 .navbar-toggler{
     border: none;
-
-
 }
 .navbar-toggler-icon{
     border: none;
@@ -24,6 +22,12 @@ h1{
     transform: rotate(90deg);
     border: none;
 
+}
+.principal{
+    background-image: url("../assets/unplash_images/girl-with-red-hat-012SxFCCqGA-unsplash.jpg");
+}
+div>.reflectie{
+    margin: 40px 0 100px 0;
 }
 
 /*OVERZICHT OFF CANVAS*/
@@ -92,7 +96,7 @@ left: 0;
     /*!*background-repeat: no-repeat;*!*/
     /*background-position: center center;*/
     /*overflow-x: hidden;*/
-
+height: 85vh;
 
 
 }
@@ -107,7 +111,7 @@ left: 0;
     top: 55px;
     background-color: #000000;
     min-height: 80px;
-    width: 100%;
+
 
 }
 .secondary-navbar ul{
@@ -153,12 +157,10 @@ color: #ffffff;
     color: #ffffff;
 
 }
-.values-skills{
-    height: 400px;
-}
-.values-skills img{
-    width: 70%;
-}
+/*.values-skills img{*/
+/*    max-width: 70%;*/
+/*}*/
+
 button{
     padding: 10px 15px ;
     border-radius: 20px ;
@@ -264,7 +266,13 @@ border-radius: 20px;
 .footer{
     min-height: 250px;
     background-color: #212529;
+    display: flex;
+    justify-content: space-between;
 
+}
+.footer .row{
+    align-items: center;
+    justify-content: center;
 }
 
 .footer ul li , .footer h3{
@@ -272,6 +280,11 @@ border-radius: 20px;
 }
 .footer ul li{
     list-style: none;
+}
+.footer-social ul{
+    display: flex;
+    justify-content: space-between;
+
 }
 .footer-social i{
     font-size: 35px;

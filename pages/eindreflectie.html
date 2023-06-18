@@ -21,13 +21,63 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
-<!--MAIN-->
-<div class="main container">
-    <div class="row">
+<!--NAV-->
+<!--NAV-->
+<nav class="navbar principal fixed-top bg-white ">
+    <div class="container-fluid ">
+        <a class="navbar-brand" href="../index.html">GonYa</a>
+        <button class="navbar-toggler overzicht-button" type="button" data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasNavbar"
+                aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
 
-        <div class="col">
-            <h5>Volgens STARR-methode</h5>
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+             aria-labelledby="offcanvasNavbarLabel">
+
+            <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body offcanvas-right">
+
+                <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="../pages/over_mij.html">Over mij</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="../pages/ervaring.html">Ervaring</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="../pages/portfolio.html">Portfolio</a>
+                    </li>
+
+
+                </ul>
+
+
+            </div>
+            <div class="offcanvas-left show ">
+                <img src="../assets/unplash_images/valentina-conde-pPFZibBBLGc-unsplash.jpg" alt=""
+                     class="img-fluid left-img left-img-1">
+                <img src="../assets/unplash_images/valentina-conde-pPFZibBBLGc-unsplash.jpg" alt=""
+                     class="img-fluid left-img left-img-2">
+                <img src="../assets/unplash_images/valentina-conde-pPFZibBBLGc-unsplash.jpg" alt=""
+                     class="img-fluid left-img left-img-3 ">
+            </div>
+        </div>
+
+    </div>
+</nav>
+<!--HEADER-->
+
+<div class="header container-fluid">
+    <div class="row  header-cta justify-content-center align-items-center " >
+        <div class="  col-sm-10 col-md-8 header-banner text-center ">
+
             <h1>Eindreflectie</h1>
+            <h5>Volgens STARR-methode</h5>
 
             <p>Ik ben van plan om een reflectie te maken met behulp van de Start-methode, waarbij ik dieper zal ingaan
                 op mijn ervaringen tijdens werkplekleren 2. Met behulp van deze methode wil ik mijn ervaringen grondig
@@ -35,6 +85,17 @@
                 periode in kaart brengen. Ik zal reflecteren op de aspecten die ik leuk vond, de uitdagingen die ik ben
                 tegengekomen en hoe ik deze heb overwonnen. Door de Start-methode te gebruiken, hoop ik waardevolle
                 inzichten te verkrijgen die mijn verdere professionele ontwikkeling zullen bevorderen.</p>
+
+        </div>
+    </div>
+
+</div>
+<!--MAIN-->
+<div class="main container">
+    <div class="row my-5">
+
+        <div class="col">
+
             <div>
                 <h2>Situatie</h2>
                 <p>De situatie vond plaats tijdens het vak werkplekleren, waarbij we een project kregen dat we samen met
@@ -92,5 +153,40 @@
 
 </div>
 <!--EIND MAIN-->
+<!--FOOTER-->
+<div class="footer container-fluid ">
+    <div class="row ">
+        <div class=" col-sm-10 col-md-6 col-lg-6 footer-adres ">
+
+            <h3>Contact</h3>
+            <ul>
+                <li>Email: ana.yacarinigonzales@student.pxl.be</li>
+                <li>GSM-nummer: +325869852</li>
+                <li></li>
+            </ul>
+
+        </div>
+        <div class="col-sm-10 col-md-6 col-lg-6 footer-social">
+            <!--iconen verkregen van pagina web www.icoonfinder.com -->
+            <ul >
+
+                <li><a><i class="bi bi-linkedin"></i></a></li>
+                <li><a><i class="bi bi-instagram"></i></a></li>
+                <li><a><i class="bi bi-github"></i></a></li>
+
+            </ul>
+        </div>
+    </div>
+</div>
+<!--EIND FOOTER-->
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+<!--MIJN JS-->
+<script src="../../javascript/script.js"></script>
+
 </body>
 </html>
