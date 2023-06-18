@@ -162,6 +162,9 @@ color: #ffffff;
 .offcanvas-left img{
     max-width: 50%;
     margin: 1%;
+    position: absolute;
+    top: 15px;
+    left: 15px;
 
 }
 .offcanvas-header a{
@@ -346,6 +349,8 @@ border-radius: 20px;
 
         max-width: 45%;
         max-height: 35%;
+
+
     }
     .header-banner h1{
         font-size: 60px;
