@@ -13,10 +13,20 @@
 
 h1,h2,h3,h4,p, span{
     font-family: 'Barlow Condensed', sans-serif;
+    letter-spacing: 2px;
 }
 p,ul, ol {
 font-size: 21px;
     font-weight:400;
+}
+h3{
+    font-size: 26px;
+}
+h2{
+    font-size: 32px;
+}
+h1{
+    font-size: 41px;
 }
 
 
@@ -38,7 +48,7 @@ font-size: 21px;
     background-image: url("../assets/unplash_images/girl-with-red-hat-012SxFCCqGA-unsplash.jpg");
 
 }
-.offcanvas-header h5, .principal, .offcanvas-body{
+.offcanvas-header h5, .principal, .offcanvas-body a{
     font-size: 70px;
 }
 div>.reflectie{
@@ -111,6 +121,9 @@ height: 85vh;
 }
 .header-banner h1{
     font-size: 60px;
+}
+.header-banner p{
+   font-size: 31px;
 }
 
 /*secondary navbar*/
