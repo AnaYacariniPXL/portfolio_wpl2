@@ -19,15 +19,6 @@ p,ul, ol {
 font-size: 21px;
     font-weight:400;
 }
-/*h3{*/
-/*    font-size: 26px;*/
-/*}*/
-/*h2{*/
-/*    font-size: 32px;*/
-/*}*/
-/*h1{*/
-/*    font-size: 41px;*/
-/*}*/
 
 
 
@@ -44,13 +35,16 @@ font-size: 21px;
     border: none;
 
 }
+.navbar-brand img{
+
+    /*max-width: 15vw;*/
+    max-height: 45px;
+}
+
 .principal{
     background-image: url("../assets/unplash_images/girl-with-red-hat-012SxFCCqGA-unsplash.jpg");
-
 }
-/*.offcanvas-header h5, .principal, .offcanvas-body a{*/
-/*    font-size: 70px;*/
-/*}*/
+
 div>.reflectie{
     margin: 40px 0 100px 0;
 }
@@ -70,6 +64,10 @@ div>.reflectie{
     overflow-x: hidden;
     /*transition: right 10s linear;*/
     transition: right 2.8s cubic-bezier(.25,.25,.85,.81);
+}
+.offcanvas-left img{
+    filter: invert(100%);
+
 }
 #offcanvasNavbar{
     width: 50vw;
@@ -104,10 +102,6 @@ left: 0;
 
 .header-cta{
     background-image: url("../assets/unplash_images/girl-with-red-hat-012SxFCCqGA-unsplash.jpg");
-    /*background-size: auto ;*/
-    /*!*background-repeat: no-repeat;*!*/
-    /*background-position: center center;*/
-    /*overflow-x: hidden;*/
 height: 85vh;
 
 
@@ -121,7 +115,6 @@ height: 85vh;
     top: 55px;
     background-color: #000000;
     min-height: 80px;
-
 
 }
 .secondary-navbar ul{
@@ -160,15 +153,16 @@ color: #ffffff;
 /*MAIN*/
 
 
-.main{
-    padding: 20px 0;
-    margin: 20px 0;
-}
 .offcanvas {
     background-image: url("../assets/unplash_images/girl-with-red-hat-012SxFCCqGA-unsplash.jpg")
 }
 .offcanvas-left, .reflectie .card-body{
     background-image: url("../assets/unplash_images/efe-kurnaz-RnCPiXixooY-unsplash.jpg")
+}
+.offcanvas-left img{
+    max-width: 50%;
+    margin: 1%;
+
 }
 .offcanvas-header a{
     color: #000000;
@@ -319,12 +313,13 @@ border-radius: 20px;
     min-height: 250px;
     background-color: #212529;
     display: flex;
-    justify-content: space-between;
+
 
 }
 .footer .row{
     align-items: center;
     justify-content: center;
+    align-content: space-evenly;
 }
 
 .footer ul li , .footer h3{
@@ -340,12 +335,18 @@ border-radius: 20px;
 }
 .footer-social i{
     font-size: 35px;
+    color: #ffffff;
 
 }
 
 
 
-@media screen and (min-width: 1200px ){
+@media screen and (min-width: 1000px ){
+    .offcanvas-left img{
+
+        max-width: 45%;
+        max-height: 35%;
+    }
     .header-banner h1{
         font-size: 60px;
     }
@@ -363,7 +364,7 @@ border-radius: 20px;
         font-size: 26px;
     }
     h2{
-        font-size: 32px;
+        font-size: 30px;
     }
     h1{
         font-size: 41px;
