@@ -4,14 +4,25 @@
     box-sizing: border-box;
 }
 
-h1{
-    font-family: 'Bebas Neue', sans-serif;
+.principal, .offcanvas-header h5{
+    font-family: 'Barlow Condensed', sans-serif;
+    letter-spacing: 3px;
+    text-transform: capitalize;
+
 }
 
+h1,h2,h3,h4,p, span{
+    font-family: 'Barlow Condensed', sans-serif;
+}
+p,ul, ol {
+font-size: 21px;
+    font-weight:400;
+}
+
+
+
 /*NAV PRINCIPAL*/
-/*.sticky-nav{*/
-/*    width: 100vw;*/
-/*}*/
+
 .navbar-toggler{
     border: none;
 }
@@ -25,6 +36,10 @@ h1{
 }
 .principal{
     background-image: url("../assets/unplash_images/girl-with-red-hat-012SxFCCqGA-unsplash.jpg");
+
+}
+.offcanvas-header h5, .principal, .offcanvas-body{
+    font-size: 70px;
 }
 div>.reflectie{
     margin: 40px 0 100px 0;
@@ -50,11 +65,14 @@ div>.reflectie{
     width: 50vw;
 
 }
+.offcanvas header a{
+    color: #ffffff;
+}
 .offcanvas-left.show {
 left: 0;
 }
 
-.offcanvas-left .left-img {
+.offcanvas-left .text-offleft {
     width: 50%;
     position: absolute;
     box-shadow: 0 15px 60px rgba(0, 0, 0, 0.8);
@@ -62,21 +80,12 @@ left: 0;
     border-radius: 10px;
 }
 
-.offcanvas-left .left-img-1 {
-    top: 2%;
-    left: 2%;
-}
 
-.offcanvas-left .left-img-2 {
-    top: 3%;
-    left: 4%;
-}
-
-
-
-.offcanvas-left .left-img-3{
-    top: 30%;
-    left: 25%;
+.offcanvas-left .text-offleft{
+    top: 20%;
+    left:25%;
+    font-size: 75px;
+    padding:25px;
 }
 
 
@@ -100,8 +109,8 @@ height: 85vh;
 
 
 }
-.header h1{
-    font-size: 40px;
+.header-banner h1{
+    font-size: 60px;
 }
 
 /*secondary navbar*/
@@ -148,9 +157,33 @@ color: #ffffff;
 }
 
 /*MAIN*/
-/*.main{*/
+
+/*.values-skills{*/
 /*    background-image: url("../assets/unplash_images/efe-kurnaz-RnCPiXixooY-unsplash.jpg");*/
+/*    color: #ffffff;*/
 /*}*/
+.main{
+    padding: 20px 0;
+    margin: 20px 0;
+}
+.offcanvas {
+    background-image: url("../assets/unplash_images/girl-with-red-hat-012SxFCCqGA-unsplash.jpg")
+}
+.offcanvas-left, .reflectie .card-body{
+    background-image: url("../assets/unplash_images/efe-kurnaz-RnCPiXixooY-unsplash.jpg")
+}
+.offcanvas-header a{
+    color: #000000;
+    text-decoration: none;
+    font-weight: normal;
+}
+
+.offcanvas a:hover{
+    font-weight: bold;
+}
+.offcanvas a:active{
+    text-decoration: underline;
+}
 .ervaring-wpl{
     margin: 70px 0;
     background-color: #000000;
@@ -158,28 +191,41 @@ color: #ffffff;
 
 }
 /*.values-skills img{*/
-/*    max-width: 70%;*/
+/*    max-height: 150px;*/
 /*}*/
 
-button{
+button, .values-skills button{
     padding: 10px 15px ;
     border-radius: 20px ;
     background-color: #20c997;
     border: none;
     font-weight: bold;
 }
+.hard-skills, .formulier, .card-info{
+    background-image: url("../assets/unplash_images/efe-kurnaz-RnCPiXixooY-unsplash.jpg")
+}
+.hard-skills .text-intro{
+    color: #ffffff;
+}
+
 .hard-skills img, .tools img{
     max-width: 50%;
     margin: 30px auto;
 }
 .tools{
     text-align: center;
-
 }
 
+
 /*FORMULIER CONTACT*/
+.formulier{
+padding: 20px 0;
+}
 .formulier .card{
     border: none;
+}
+.formulier h2{
+    color: #ffffff;
 }
 .formulier input, #bericht{
 border-bottom: 3px solid #6f42c1;
@@ -254,6 +300,16 @@ border-radius: 20px;
     object-fit: fill;
     padding: 5px;
     height: 300px;
+}
+
+.card-info h2, .card-info span{
+ color: #ffffff;
+}
+.reflectie .card-body{
+    color: #ffffff;
+}
+.reflectie .card-body, .footer{
+    background-position: right;
 }
 .reflectie a{
     background-color: #20c997;

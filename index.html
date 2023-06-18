@@ -7,10 +7,10 @@
     <link rel="icon" type="image/x-icon" href="assets/favicon_''">
 
     <!--    GOOGLE FONTS-->
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Chivo+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap"
-          rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,500&family=Bebas+Neue&family=Chivo+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <!-- BOOTSTRAP CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
           integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
@@ -42,11 +42,11 @@
             <span class="navbar-toggler-icon"></span>
         </button>
 
-        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+        <div class="offcanvas offcanvas-end text-center" tabindex="-1" id="offcanvasNavbar"
              aria-labelledby="offcanvasNavbarLabel">
 
             <div class="offcanvas-header">
-                <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
+                <h5 class="offcanvas-title" id="offcanvasNavbarLabel" ><a href="index.html">Home</a></h5>
                 <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
             </div>
             <div class="offcanvas-body offcanvas-right">
@@ -69,12 +69,8 @@
 
             </div>
             <div class="offcanvas-left show ">
-                <img src="assets/unplash_images/valentina-conde-pPFZibBBLGc-unsplash.jpg" alt=""
-                     class="img-fluid left-img left-img-1">
-                <img src="assets/unplash_images/valentina-conde-pPFZibBBLGc-unsplash.jpg" alt=""
-                     class="img-fluid left-img left-img-2">
-                <img src="assets/unplash_images/valentina-conde-pPFZibBBLGc-unsplash.jpg" alt=""
-                     class="img-fluid left-img left-img-3 ">
+                <p class="  text-offleft"  >Passie leidde ons hier</p>
+                <h1 style="width: 60px; color: #ffffff">Gonya</h1>
             </div>
         </div>
 
@@ -84,10 +80,7 @@
 
 <!--HEADER-->
 <div class="header container-fluid">
-    <!--    <div class=''>-->
-    <!--        <a><i></i></a>-->
-    <!--        <p></p>-->
-    <!--        </div>-->
+
 
     <div class="row  header-cta justify-content-center align-items-center ">
         <div class="header-banner col-8 text-center ">
@@ -132,29 +125,34 @@
             </ul>
         </div>
     </div>
-    <div class="row values-skills my-5  justify-content-center align-items-center text center" id="vaardigheden">
+    <div class="row values-skills py-5  justify-content-center align-items-center text center" id="vaardigheden">
         <div class=" col-sm-10 col-md-4 col-xl-3 mx-3">
             <h3>Diverse vaardigheden </h3>
             <p>Ik ben in staat om projecten op het gebied van UI/UX-design, illustratie en front-end uit te voeren, met
                 een solide kennisbasis. Hoewel mijn voorkeur uitgaat naar UX-design, heb ik onlangs een sterke
                 interesse ontwikkeld in het coderen en vind ik het leuk om mijn vaardigheden op dat gebied verder te
                 ontwikkelen.</p>
-            <button>Meer info</button>
+            <button type="button" onclick="window.location.href='pages/over_mij.html'" >Meer info</button>
         </div>
-        <div class="col-xs-10  col-sm-6 col-md-2">
-            <!--            web design by Wilson Joseph from <a href="https://thenounproject.com/browse/icons/term/web-design/" target="_blank" title="web design Icons">Noun Project</a>-->
-            <p>UX/UI Design</p>
-            <img src="assets/iconen/noun_project/noun-ux-4262282.png" alt="" class="img-fluid">
-        </div>
-        <div class="col-xs-10  col-sm-6 col-md-2">
-            <!--            graphics tool by Aiden Icons from <a href="https://thenounproject.com/browse/icons/term/graphics-tool/" target="_blank" title="graphics tool Icons">Noun Project</a>-->
-            <p>Illustratie</p>
-            <img src="assets/iconen/noun_project/noun-graphics-5751650.png" alt="" class="img-fluid">
-        </div>
-        <div class="col-xs-10 col-sm-6 col-md-2">
-            <!--            web design by Wilson Joseph from <a href="https://thenounproject.com/browse/icons/term/web-design/" target="_blank" title="web design Icons">Noun Project</a>-->
-            <p>Front-End Web Development</p>
-            <img src="assets/iconen/noun_project/noun-web-design-74613.png" alt="" class="img-fluid">
+        <div class="col">
+            <div class="row row-cols-2 row-cols-sm-3 g-4 mx-auto my-3">
+                <div class="col">
+                    <!--            web design by Wilson Joseph from <a href="https://thenounproject.com/browse/icons/term/web-design/" target="_blank" title="web design Icons">Noun Project</a>-->
+                    <p>UX/UI Design</p>
+                    <img src="assets/iconen/noun_project/noun-ux-4262282.png" alt="" class="img-fluid">
+                </div>
+                <div class="col">
+                    <!--            graphics tool by Aiden Icons from <a href="https://thenounproject.com/browse/icons/term/graphics-tool/" target="_blank" title="graphics tool Icons">Noun Project</a>-->
+                    <p>Illustratie</p>
+                    <img src="assets/iconen/noun_project/noun-graphics-5751650.png" alt="" class="img-fluid">
+                </div>
+                <div class="col">
+<!--                        web design by Wilson Joseph from <a href="https://thenounproject.com/browse/icons/term/web-design/" target="_blank" title="web design Icons">Noun Project</a>-->
+                <p>Front-End Web Development</p>
+                <img src="assets/iconen/noun_project/noun-web-design-74613.png" alt="" class="img-fluid">
+            </div>
+            </div>
+
         </div>
 
     </div>
@@ -175,19 +173,19 @@
                 ontwerpen van intuïtieve gebruikersinterfaces en het samenwerken met het team om effectieve
                 ontwerpoplossingen te leveren. Ik ben trots op mijn vermogen om samen te werken en bij te dragen aan
                 succesvol project die zowel functioneel als esthetisch aantrekkelijk is</p>
-            <button>Meer info</button>
+            <button type="button" onclick="window.location.href='pages/ervaring.html'" >Meer info</button>
         </div>
     </div>
 
 
-    <div class="row showcase justify-content-center" id="showcase">
+    <div class="row showcase justify-content-center mb-5" id="showcase">
         <div class=" col-sm-10 col-md-3 my-4">
             <h3>Showcase</h3>
             <p>Ik zou graag een deel van mijn werk willen delen op het gebied van frontend design en UX/UI. Ik ben
                 enthousiast om jullie een inkijkje te geven in mijn creatieve portfolio en de resultaten te tonen van
                 mijn inspanningen op het gebied van design en gebruikerservaring. Ik geloof dat deze voorbeelden jullie
                 zullen laten zien hoe ik innovatieve en effectieve ontwerpoplossingen kan creëren.</p>
-            <button>Meer info</button>
+            <button type="button" onclick="window.location.href='pages/portfolio.html'">Meer info</button>
         </div>
 
 
