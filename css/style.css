@@ -150,7 +150,7 @@ color: #ffffff;
 
 }
 
-/*MAIN*/
+/*MAIN---*/
 
 
 .offcanvas {
@@ -165,7 +165,6 @@ color: #ffffff;
     position: absolute;
     top: 15px;
     left: 15px;
-
 }
 .offcanvas-header a{
     color: #000000;
