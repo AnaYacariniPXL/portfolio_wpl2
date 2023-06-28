@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    min-width:400px;
+}
 
 .principal, .offcanvas-header h5{
     font-family: 'Barlow Condensed', sans-serif;
@@ -43,6 +46,7 @@ font-size: 21px;
 
 .principal{
     background-image: url("../assets/unplash_images/girl-with-red-hat-012SxFCCqGA-unsplash.jpg");
+    min-width: 370px;
 }
 
 div>.reflectie{
@@ -50,7 +54,28 @@ div>.reflectie{
 }
 
 /*OVERZICHT OFF CANVAS*/
+/*OOFCANVAS RECHTS*/
+.offcanvas {
+    background-image: url("../assets/unplash_images/girl-with-red-hat-012SxFCCqGA-unsplash.jpg")
+}
+#offcanvasNavbar{
+    width: 50vw;
+}
+.offcanvas-header a{
+    color: #000000;
+    text-decoration: none;
+    font-weight: normal;
+}
 
+.offcanvas a:hover{
+    font-weight: bold;
+}
+.offcanvas a:active{
+    text-decoration: underline;
+}
+
+
+/*OFFCANVAS LINKS*/
 .offcanvas-left {
     width: 50vw;
     height: 100vh;
@@ -58,43 +83,42 @@ div>.reflectie{
     position: fixed;
     left: -50vw;
     z-index: -1;
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.20);
-    border-radius: 10px;
+    /*box-shadow: 0 10px 20px rgba(0, 0, 0, 0.20);*/
     overflow: auto;
     overflow-x: hidden;
-    /*transition: right 10s linear;*/
     transition: right 2.8s cubic-bezier(.25,.25,.85,.81);
 }
-.offcanvas-left img{
-    filter: invert(100%);
 
-}
-#offcanvasNavbar{
-    width: 50vw;
-
-}
-.offcanvas header a{
-    color: #ffffff;
-}
 .offcanvas-left.show {
 left: 0;
 }
 
 .offcanvas-left .text-offleft {
-    width: 50%;
-    position: absolute;
     box-shadow: 0 15px 60px rgba(0, 0, 0, 0.8);
     opacity: 0.7;
     border-radius: 10px;
-}
-
-
-.offcanvas-left .text-offleft{
     top: 20%;
-    left:25%;
-    /*font-size: 75px;*/
     padding:25px;
 }
+.text-offleft{
+    width: 50%;
+    left:25%;
+    position: absolute;
+}
+
+
+.offcanvas-left, .reflectie .card-body{
+    background-image: url("../assets/unplash_images/efe-kurnaz-RnCPiXixooY-unsplash.jpg")
+}
+.offcanvas-left img{
+    max-width: 50%;
+    margin: 1%;
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    filter: invert(100%);
+}
+
 
 
 /*--HEADER*/
@@ -103,7 +127,6 @@ left: 0;
 .header-cta{
     background-image: url("../assets/unplash_images/girl-with-red-hat-012SxFCCqGA-unsplash.jpg");
 height: 85vh;
-
 
 }
 
@@ -136,9 +159,6 @@ color: #ffffff;
 }
 .secondary-navbar a:active{
     filter: invert(100);
-
-
-
 }
 .secondary-navbar a:focus{
     color: #ffffff;
@@ -146,38 +166,22 @@ color: #ffffff;
     filter: invert(100);
     border-radius: 20px;
 
-
-
 }
 
+
+.header-goesting .header-cta .header-banner {
+
+    color: #ffffff;
+    background-color: rgba(69, 69, 73, 0.71);
+}
 /*MAIN---*/
 
-
-.offcanvas {
-    background-image: url("../assets/unplash_images/girl-with-red-hat-012SxFCCqGA-unsplash.jpg")
-}
-.offcanvas-left, .reflectie .card-body{
-    background-image: url("../assets/unplash_images/efe-kurnaz-RnCPiXixooY-unsplash.jpg")
-}
-.offcanvas-left img{
-    max-width: 50%;
-    margin: 1%;
-    position: absolute;
-    top: 15px;
-    left: 15px;
-}
-.offcanvas-header a{
-    color: #000000;
-    text-decoration: none;
-    font-weight: normal;
+.values-skills img{
+   max-width: 100%;
+    height: 75%;
 }
 
-.offcanvas a:hover{
-    font-weight: bold;
-}
-.offcanvas a:active{
-    text-decoration: underline;
-}
+
 .ervaring-wpl{
     margin: 70px 0;
     background-color: #000000;
@@ -204,10 +208,21 @@ button, .values-skills button{
     max-width: 50%;
     margin: 30px auto;
 }
+.lijst-hs:hover{
+    filter: invert(100%);
+
+}
 .tools{
     text-align: center;
 }
-
+.lijst-wpl1 .scroll-link:hover{
+cursor: pointer;
+    font-weight: bold;
+}
+.lijst-wpl1  a{
+    text-decoration: none;
+    color: #000000;
+}
 
 /*FORMULIER CONTACT*/
 .formulier{
@@ -253,9 +268,7 @@ border-radius: 20px;
 
 }
 
-.card:hover .card-overlay{
-  transform: translateX(0);
-}
+
 .card-overlay{
     position: absolute;
     top: 0;
@@ -273,6 +286,11 @@ border-radius: 20px;
     text-align: center;
     padding: 20px;
     box-sizing: border-box;
+    cursor: pointer;
+
+}
+.card:hover .card-overlay{
+    transform: translateX(0);
 
 }
 .card-overlay-heading{
@@ -310,6 +328,19 @@ border-radius: 20px;
     border: none;
 }
 
+.cases span{
+font-weight: bold;
+    font-size: 24px;
+
+}
+
+.doelgroepen{
+    background-color: #212529;
+    color: #ced4da;
+}
+.doelgroepen h2{
+    color: #20c997;
+}
 /*FOOTER*/
 .footer{
     min-height: 250px;
