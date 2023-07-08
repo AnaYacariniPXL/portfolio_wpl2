@@ -7,7 +7,12 @@ body{
     min-width:400px;
     background-color: #D9DADC;
 }
-
+.body-portfolio{
+    background-color: #dadacf;
+}
+.cases{
+    background-color: #F2F2F2;
+}
 .principal, .offcanvas-header h5{
     font-family: 'Belanosima', sans-serif;
     letter-spacing: 3px;
@@ -60,11 +65,11 @@ div>.reflectie{
 
 /*OVERZICHT OFF CANVAS*/
 /*OOFCANVAS RECHTS*/
-.offcanvas {
-   background-color: #c2ddbe;
-}
+
+
 #offcanvasNavbar{
     width: 50vw;
+    background-color: #dadacf;
 }
 .offcanvas-header a{
     color: #000000;
@@ -84,7 +89,7 @@ div>.reflectie{
 .offcanvas-left {
     width: 50vw;
     height: 100vh;
-    background-color: #000000;
+    background-color: #385446;
     position: fixed;
     left: -50vw;
     z-index: -1;
@@ -105,6 +110,7 @@ left: 0;
     border-radius: 10px;
     top: 20%;
     padding:25px;
+    color: #ffffff;
 }
 .text-offleft{
     width: 50%;
@@ -208,18 +214,24 @@ button, .values-skills button{
     font-weight: bold;
     color: #ffffff;
 }
-.main-over{
-background-color: #B0CBA2;
 
+.main-over, .card-body button{
+background-color: #5c7753;
+    border: none;
+
+
+}
+.card-body button:hover{
+    background-color: #385446;
 }
 .over{
     color: #ffffff;
     background-color: #537364;
 }
-.hard-skills, .formulier, .card-info{
+.hard-skills, .formulier, .main-ervaring{
     /*background-image: url("../assets/unplash_images/efe-kurnaz-RnCPiXixooY-unsplash.jpg")*/
     /*background-image: url("../assets/unplash_images/pawel-czerwinski-X4PSwltIx9c-unsplash.jpg");*/
-    background-color: #D5D6D8;
+    background-color: #dadacf;
 }
 .hard-skills .text-intro h2{
     color: #4E7060;
@@ -234,9 +246,13 @@ background-color:#537364;
     color: #ffffff;
 }
 
+
 .tools{
     text-align: center;
+  color: #ced4da;
+    padding: 50px 0;
 }
+
 .lijst-wpl1 .scroll-link:hover{
 cursor: pointer;
     font-weight: bold;
@@ -341,16 +357,27 @@ border-radius: 20px;
  color: #ffffff;
 }
 .reflectie .card-body{
-    color: #ffffff;
+    color: #000000;
 }
+
 .reflectie .card-body, .footer{
     background-position: right;
 }
-.reflectie a{
-    background-color: #20c997;
-    color:#000000;
+
+.reflectie a, .reflectie .card-header, .modal-header{
+    background-color: #4E7060;
+    color:#ffffff;
 
     border: none;
+}
+.modal-header .btn-close{
+   filter: invert(100%);
+}
+.main-ervaring h2{
+    color: #4E7060;
+}
+.main-ervaring p span{
+    color: #000000;
 }
 
 .cases span{
@@ -359,13 +386,18 @@ font-weight: bold;
 
 }
 
-.doelgroepen{
+.uitleg, .gebruikservaring{
     background-color: #212529;
     color: #ced4da;
 }
-.doelgroepen h2{
+.uitleg h2, .gebruikservaring h2,.uitleg span, .gebruikservaring span, .uitleg h3{
     color: #20c997;
 }
+.uitleg span, .gebruikservaring span{
+   font-weight: lighter;
+    text-space: 1px;
+}
+
 
 .modal-content{
     width: 80vw;
