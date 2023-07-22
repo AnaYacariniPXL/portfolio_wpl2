@@ -36,13 +36,13 @@
 <nav class="navbar principal fixed-top bg-white ">
     <div class="container-fluid ">
         <a class="navbar-brand" href="index.html"><img src="assets/persoonljke_foto/logo_definitief.png" class="container-fluid" alt="logo"></a>
-        <button class="navbar-toggler overzicht-button" type="button" data-bs-toggle="offcanvas"
+        <button class="navbar-toggler overzicht-button d-lg-none" type="button" data-bs-toggle="offcanvas"
                 data-bs-target="#offcanvasNavbar"
                 aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
 
-        <div class="offcanvas offcanvas-end text-center" tabindex="-1" id="offcanvasNavbar"
+        <div class="offcanvas offcanvas-end text-center " tabindex="-1" id="offcanvasNavbar"
              aria-labelledby="offcanvasNavbarLabel">
 
             <div class="offcanvas-header">
@@ -57,7 +57,7 @@
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="pages/ervaring.html">Ervaring</a>
+                        <a class="nav-link active" aria-current="page" href="pages/case_study.html">Ervaring</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="pages/portfolio.html">Portfolio</a>
@@ -74,6 +74,25 @@
             </div>
         </div>
 
+        <div class="row  align-items-center text-center  d-none d-lg-inline">
+            <div class="col-12">
+
+                <ul class="nav  nav-desktop justify-content-center ">
+                    <li class="nav-item">
+                        <a class="nav-link " aria-current="page" href="pages/over_mij.html"
+                        >Over mij </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="pages/case_study.html" >Case study</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="pages/portfolio.html">Portfolio</a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+
     </div>
 </nav>
 <!--EIND NAV-->
@@ -82,7 +101,7 @@
 <div class="header container-fluid">
 
     <div class="row  header-cta justify-content-center align-items-center ">
-        <div class="header-banner col-8 text-center ">
+        <div class="header-banner col-md-8 col-lg-5 text-center ">
 
             <h1>Hallo! Mijn naam is Ana </h1>
             <p>en ik studeer digitale vormgeving. Ik breng graag mijn creativiteit en kritisch
@@ -103,28 +122,10 @@
 <!--MAIN-->
 <div class="main container-fluid ">
 
-    <div class="row secondary-navbar align-items-center text-center mb-5 ">
-        <div class="col-12">
 
-            <ul class="nav   justify-content-center ">
-                <li class="nav-item">
-                    <a class="nav-link active scroll-link" aria-current="page" href="#vaardigheden"
-                      >Diverse vaardigheden </a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link scroll-link" href="#ervaring" >Recente
-                        Ervaring</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link scroll-link" href="#showcase" >Showcase</a>
-                </li>
-
-            </ul>
-        </div>
-    </div>
     <div class="row values-skills py-5  justify-content-center align-items-center text center" id="vaardigheden">
         <div class=" col-sm-10 col-md-6 col-xl-3 mx-3 ">
-            <h2>Diverse vaardigheden </h2>
+            <h2>Over mij </h2>
             <p>Ik ben in staat om projecten op het gebied van UI/UX-design, illustratie en front-end uit te voeren, met
                 een degelijke kennisbasis. Hoewel mijn voorkeur uitgaat naar UX-design, heb ik onlangs een sterke
                 interesse ontwikkeld in het coderen en vind ik het leuk om mijn vaardigheden op dat gebied verder te
@@ -149,23 +150,19 @@
         </div>
 
         <div class="col-sm-10 col-md-6 col-xl-3 mx-3  order-0 order-md-1 my-4">
-            <h2>Recente Ervaring</h2>
+            <h2>Case study</h2>
             <p>In mijn meest recente ervaring heb ik meegewerkt aan een interessant project over de ontwikkeling van een
                 open-source slimme laadpaal. Ik was bij de branding, website-ontwikkeling en het productdesign betrokken,
                 allemaal binnen een teamomgeving.<p>
-            <h3>Mijn rol?</h3>
-            <p>Mijn rol omvatte het creëren van consistente visuele identiteiten, het
-                ontwerpen van intuïtieve gebruikersinterfaces en het samenwerken met het team om effectieve
-                ontwerpoplossingen te leveren. Ik ben trots op mijn manier van samenwerken en op mijn bijdrage aan
-                succesvol project die zowel functioneel als esthetisch aantrekkelijk is</p>
-            <button type="button" onclick="window.location.href='pages/ervaring.html'" >Meer info</button>
+
+            <button type="button" onclick="window.location.href='pages/case_study.html'" >Meer info</button>
         </div>
     </div>
 
 
     <div class="row showcase justify-content-center mb-5" id="showcase">
         <div class=" col-sm-10 col-md-6 col-xl-3 mx-3  my-4">
-            <h2>Showcase</h2>
+            <h2>Portfolio</h2>
             <p>Ik zou graag een deel van mijn werk willen delen op het gebied van frontend design en UX/UI. Ik ben
                 enthousiast om jullie een inkijkje te geven in mijn creatieve portfolio en de resultaten te tonen van
                 mijn inspanningen op het gebied van design en gebruikerservaring. Ik geloof dat deze voorbeelden jullie

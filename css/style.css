@@ -5,18 +5,19 @@
 }
 body{
     min-width:400px;
-    background-color: #D9DADC;
+    /*background-color: #D8D6CD;*/
 }
 .body-portfolio{
-    background-color: #dadacf;
+    /*background-color: #dadacf;*/
 }
 .cases{
-    background-color: #F2F2F2;
+    /*background-color: #F2F2F2;*/
 }
 .principal, .offcanvas-header h5{
     font-family: 'Belanosima', sans-serif;
     letter-spacing: 3px;
     text-transform: capitalize;
+
 
 }
 
@@ -26,7 +27,7 @@ h1,h2,h3,h4,p, span{
 }
 p,ul, ol {
     font-family: 'Encode Sans', sans-serif;
-font-size: 21px;
+font-size: 16px;
 font-weight: 300;
     letter-spacing: 1px;
 }
@@ -55,7 +56,7 @@ font-weight: 300;
 .principal{
     /*background-image: url("../assets/unplash_images/girl-with-red-hat-012SxFCCqGA-unsplash.jpg");*/
     min-width: 370px;
-    background-image: url("../assets/unplash_images/pawel-czerwinski-X4PSwltIx9c-unsplash.jpg");
+    /*background-image: url("../assets/unplash_images/pawel-czerwinski-X4PSwltIx9c-unsplash.jpg");*/
 
 }
 
@@ -69,7 +70,7 @@ div>.reflectie{
 
 #offcanvasNavbar{
     width: 50vw;
-    background-color: #dadacf;
+    /*background-color: #dadacf;*/
 }
 .offcanvas-header a{
     color: #000000;
@@ -89,7 +90,7 @@ div>.reflectie{
 .offcanvas-left {
     width: 50vw;
     height: 100vh;
-    background-color: #385446;
+    /*background-color: #385446;*/
     position: fixed;
     left: -50vw;
     z-index: -1;
@@ -140,7 +141,7 @@ left: 0;
 
 
 .header-cta{
-background-image: url("../assets/unplash_images/pawel-czerwinski-X4PSwltIx9c-unsplash.jpg");
+/*background-image: url("../assets/unplash_images/pawel-czerwinski-X4PSwltIx9c-unsplash.jpg");*/
 
 height: 85vh;
 
@@ -152,7 +153,7 @@ height: 85vh;
     position: sticky;
     z-index: 100;
     top: 55px;
-    background-color: #000000;
+    /*background-color: #000000;*/
     min-height: 80px;
 
 }
@@ -179,7 +180,7 @@ color: #ffffff;
 }
 .secondary-navbar a:focus{
     color: #ffffff;
-    background-color: #000000;
+    /*background-color: #000000;*/
     filter: invert(100);
     border-radius: 20px;
 
@@ -189,7 +190,7 @@ color: #ffffff;
 .header-goesting .header-cta .header-banner {
 
     color: #ffffff;
-    background-color: rgba(69, 69, 73, 0.71);
+    /*background-color: rgba(69, 69, 73, 0.71);*/
 }
 /*MAIN---*/
 
@@ -209,48 +210,72 @@ color: #ffffff;
 button, .values-skills button{
     padding: 10px 15px ;
     border-radius: 20px ;
-    background-color: #557566;
+    background-color: #20c997;
     border: none;
-    font-weight: bold;
+    font-weight: normal;
     color: #ffffff;
 }
 
 .main-over, .card-body button{
-background-color: #5c7753;
+/*background-color: #5c7753;*/
     border: none;
 
-
+}
+.main-over h1{
+    color: #20c997;
 }
 .card-body button:hover{
-    background-color: #385446;
+    /*background-color: #385446;*/
 }
 .over{
     color: #ffffff;
-    background-color: #537364;
+    background-color: rgba(69, 69, 73, 0.91);
 }
 .hard-skills, .formulier, .main-ervaring{
     /*background-image: url("../assets/unplash_images/efe-kurnaz-RnCPiXixooY-unsplash.jpg")*/
     /*background-image: url("../assets/unplash_images/pawel-czerwinski-X4PSwltIx9c-unsplash.jpg");*/
-    background-color: #dadacf;
-}
-.hard-skills .text-intro h2{
-    color: #4E7060;
+
 }
 
-.hard-skills img, .tools img{
-    max-width: 50%;
-    margin: 30px auto;
+.hard-skills .text-intro h2{
+    color: #20c997;
 }
-.lijst-hs .card-body{
-background-color:#537364;
-    color: #ffffff;
+
+.hard-skills img{
+    max-width: 40%;
+    max-height: 180px;
+    margin: 30px auto;
+
+}
+
+.lijst-hs .card{
+    border: none;
+/*max-width: 500px;*/
+
+}
+.lijst-hs .card-title{
+
+    color: #000000;
+    /*background-color: #ffc107;*/
+
+
+}
+.lijst-hs .card-text{
+    color: #212529;
+
 }
 
 
 .tools{
     text-align: center;
-  color: #ced4da;
+  color: #343a40;
     padding: 50px 0;
+    background-color: #f6e8d5;
+}
+
+.tools img{
+    max-width:10%;
+    margin: 15px;
 }
 
 .lijst-wpl1 .scroll-link:hover{
@@ -265,12 +290,13 @@ cursor: pointer;
 /*FORMULIER CONTACT*/
 .formulier{
 padding: 20px 0;
+    background-color: #343a40;
 }
 .formulier .card{
     border: none;
 }
 .formulier h2{
-    color: #4E7060;
+    color: #20c997;
 }
 .formulier input, #bericht{
 border-bottom: 3px solid #4E7060;
@@ -279,7 +305,7 @@ border-bottom: 3px solid #4E7060;
 .formulier input:focus, #bericht:focus{
 background: #CECFD1;
     outline: none;
-    border-bottom: 3px solid #B0CBA2;
+    border-bottom: 3px solid #20c997;
     color: #ffffff;
 }
 #bericht {
@@ -290,7 +316,7 @@ background: #CECFD1;
 }
 .formulier button{
     margin: 20px auto ;
-    background: #4E7060;
+    background: #343a40;
     border: none;
     color: #ffffff;
     font-weight: bold;
@@ -299,6 +325,11 @@ border-radius: 20px;
 .formulier button:hover{
     background-color: #212529;
 }
+.formulier button::selection{
+    background-color: #20c997;
+    color: #212529;
+}
+
 
 /*CARDS PORTFOLIO*/
 
@@ -439,38 +470,58 @@ font-weight: bold;
 
 
 @media screen and (min-width: 1000px ){
-    .offcanvas-left img{
+    /*.offcanvas-left img{*/
 
-        max-width: 45%;
-        max-height: 35%;
+    /*    max-width: 45%;*/
+    /*    max-height: 35%;*/
 
 
+    /*}*/
+    .nav-desktop a{
+        color: #212529;
     }
-    .header-banner h1{
-        font-size: 60px;
+    .nav-desktop a:hover{
+        font-weight: bold;
+        color: #20c997;
     }
-    .header-banner p{
-       font-size: 26px;
-    }
-    .offcanvas-left .text-offleft {
+.nav-desktop a:active{
+    text-decoration: underline #20c997;
 
-        font-size: 75px;
-    }
-    .offcanvas-header h5, .principal, .offcanvas-body a{
-        font-size: 70px;
-    }
+}
+    /*.header-banner h1{*/
+    /*    font-size: 60px;*/
+    /*}*/
+    /*.header-banner p{*/
+    /*   font-size: 26px;*/
+    /*}*/
+    /*.offcanvas-left .text-offleft {*/
+
+    /*    font-size: 75px;*/
+    /*}*/
+    /*.offcanvas-header h5, .principal, .offcanvas-body a{*/
+    /*    font-size: 70px;*/
+    /*}*/
     h3{
         font-size: 26px;
     }
 
-    h2{
+    body h2{
         font-size: 30px;
     }
-    body h2{
-        font-size: 45px;
+    .header-banner h1{  font-size:50px}
+    .header-banner p{
+        font-size: 21px;
     }
     h1{
-        font-size: 41px;
+        font-size: 35px
     }
+    p{
+        font-size: 18px;
+    }
+.tools img{
+    max-width:50px ;
+    margin: 15px ;
+
+}
 
 }
