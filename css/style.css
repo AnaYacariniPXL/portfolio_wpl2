@@ -85,6 +85,7 @@ p, ul, ol {
 
 .header-cta {
     height: 70vh;
+
 }
 
 
@@ -131,8 +132,8 @@ p, ul, ol {
 }
 
 .header-goesting .header-cta .header-banner {
-   background-color: #20c997;
-    padding: 150px
+   background-color: #DADACF;
+    padding: 100px 150px
 }
 
 /*MAIN---*/
@@ -284,9 +285,9 @@ button, .values-skills button {
 .main-case{
     background-color: #dadacf;
 }
-.main-case img{
-    max-width: 600px ;
-    margin: 15px;
+
+.main-case .deel-3 img{
+
 }
 .main-case a{
     color: #212529;
@@ -349,6 +350,10 @@ button, .values-skills button {
         height: 90vh;
 
     }
+     .header-cta {
+        background-color: #DADACF;
+
+    }
 }
 
 @media screen and (min-width: 1000px ) {
@@ -395,6 +400,10 @@ button, .values-skills button {
         max-width: 50px;
         margin: 15px;
 
+    }
+    .main-case img{
+        max-height: 600px;
+        margin: 15px;
     }
 
 
