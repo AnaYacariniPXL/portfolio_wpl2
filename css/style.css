@@ -1,19 +1,19 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-body{
-    min-width:400px;
-    /*background-color: #D8D6CD;*/
+
+body {
+    min-width: 400px;
+
 }
-.body-portfolio{
-    /*background-color: #dadacf;*/
-}
-.cases{
+
+.cases {
     /*background-color: #F2F2F2;*/
 }
-.principal, .offcanvas-header h5{
+
+.principal, .offcanvas-header h5 {
     font-family: 'Belanosima', sans-serif;
     letter-spacing: 3px;
     text-transform: capitalize;
@@ -21,164 +21,108 @@ body{
 
 }
 
-h1,h2,h3,h4,p, span{
+h1, h2, h3, h4, p, span {
     font-family: 'Belanosima', sans-serif;
     letter-spacing: 1px;
 }
-p,ul, ol {
+
+p, ul, ol {
     font-family: 'Encode Sans', sans-serif;
-font-size: 16px;
-font-weight: 300;
+    font-size: 16px;
+    font-weight: 300;
     letter-spacing: 1px;
 }
-
 
 
 /*NAV PRINCIPAL*/
 
-.navbar-toggler{
+.navbar-toggler {
     border: none;
 }
-.navbar-toggler-icon{
+
+.navbar-toggler-icon {
     border: none;
 }
+
 .navbar-toggler-icon:active {
     transform: rotate(90deg);
     border: none;
 
 }
-.navbar-brand img{
 
-    /*max-width: 15vw;*/
+.navbar-brand img {
+
     max-height: 45px;
 }
 
-.principal{
-    /*background-image: url("../assets/unplash_images/girl-with-red-hat-012SxFCCqGA-unsplash.jpg");*/
-    min-width: 370px;
-    /*background-image: url("../assets/unplash_images/pawel-czerwinski-X4PSwltIx9c-unsplash.jpg");*/
 
-}
-
-div>.reflectie{
-    margin: 40px 0 100px 0;
-}
 
 /*OVERZICHT OFF CANVAS*/
 /*OOFCANVAS RECHTS*/
 
 
-#offcanvasNavbar{
-    width: 50vw;
+#offcanvasNavbar {
+    /*width: 50vw;*/
     /*background-color: #dadacf;*/
 }
-.offcanvas-header a{
+
+.offcanvas-header a {
     color: #000000;
     text-decoration: none;
     font-weight: normal;
 }
 
-.offcanvas a:hover{
+.offcanvas a:hover {
     font-weight: bold;
 }
-.offcanvas a:active{
-    text-decoration: underline;
+
+.offcanvas a:active {
+    text-decoration: underline #20c997;
 }
-
-
-/*OFFCANVAS LINKS*/
-.offcanvas-left {
-    width: 50vw;
-    height: 100vh;
-    /*background-color: #385446;*/
-    position: fixed;
-    left: -50vw;
-    z-index: -1;
-    /*box-shadow: 0 10px 20px rgba(0, 0, 0, 0.20);*/
-    overflow: auto;
-    overflow-x: hidden;
-    transition: right 2.8s cubic-bezier(.25,.25,.85,.81);
-
-}
-
-.offcanvas-left.show {
-left: 0;
-}
-
-.offcanvas-left .text-offleft {
-    box-shadow: 0 15px 60px rgba(0, 0, 0, 0.8);
-    opacity: 0.7;
-    border-radius: 10px;
-    top: 20%;
-    padding:25px;
-    color: #ffffff;
-}
-.text-offleft{
-    width: 50%;
-    left:25%;
-    position: absolute;
-
-
-}
-
-
-.offcanvas-left, .reflectie .card-body{
-    /*background-image: url("../assets/unplash_images/efe-kurnaz-RnCPiXixooY-unsplash.jpg")*/
-
-}
-.offcanvas-left img{
-    max-width: 50%;
-    margin: 1%;
-    position: absolute;
-    top: 15px;
-    left: 15px;
-    filter: invert(100%);
-}
-
 
 
 /*--HEADER*/
 
-
-.header-cta{
-/*background-image: url("../assets/unplash_images/pawel-czerwinski-X4PSwltIx9c-unsplash.jpg");*/
-
-height: 85vh;
-
+.header-cta {
+    height: 70vh;
 }
 
 
 /*secondary navbar*/
-.secondary-navbar{
+.secondary-navbar {
     position: sticky;
     z-index: 100;
     top: 55px;
     /*background-color: #000000;*/
     min-height: 80px;
-
 }
-.secondary-navbar ul{
+
+.secondary-navbar ul {
     /*border: 1px solid #343a40;*/
 }
-.secondary-navbar li{
+
+.secondary-navbar li {
     margin: 0 35px;
 }
-.secondary-navbar a{
+
+.secondary-navbar a {
     color: #ffffff;
 
 }
 
-.secondary-navbar a:hover{
+.secondary-navbar a:hover {
 
     border: 2px solid #ffffff;
-color: #ffffff;
+    color: #ffffff;
     background-color: #343a40;
     border-radius: 20px;
 }
-.secondary-navbar a:active{
+
+.secondary-navbar a:active {
     filter: invert(100);
 }
-.secondary-navbar a:focus{
+
+.secondary-navbar a:focus {
     color: #ffffff;
     /*background-color: #000000;*/
     filter: invert(100);
@@ -186,162 +130,104 @@ color: #ffffff;
 
 }
 
-
 .header-goesting .header-cta .header-banner {
-
-    color: #ffffff;
-    /*background-color: rgba(69, 69, 73, 0.71);*/
+   background-color: #20c997;
+    padding: 150px
 }
+
 /*MAIN---*/
 
-.values-skills img{
-   max-width: 100%;
+.values-skills img {
+    max-width: 100%;
     height: 50%;
 }
 
 
-.ervaring-wpl{
-    margin: 70px 0;
-    color: #000000;
-
-}
-
-
-button, .values-skills button{
-    padding: 10px 15px ;
-    border-radius: 20px ;
+button, .values-skills button {
+    padding: 10px 15px;
+    border-radius: 20px;
     background-color: #20c997;
     border: none;
     font-weight: normal;
     color: #ffffff;
 }
 
-.main-over, .card-body button{
-/*background-color: #5c7753;*/
+.main-over, .card-body button {
     border: none;
-
 }
-.main-over h1{
+
+.main-over h1 {
     color: #20c997;
 }
-.card-body button:hover{
-    /*background-color: #385446;*/
-}
-.over{
+
+.over {
+
     color: #ffffff;
     background-color: rgba(69, 69, 73, 0.91);
 }
-.hard-skills, .formulier, .main-ervaring{
-    /*background-image: url("../assets/unplash_images/efe-kurnaz-RnCPiXixooY-unsplash.jpg")*/
-    /*background-image: url("../assets/unplash_images/pawel-czerwinski-X4PSwltIx9c-unsplash.jpg");*/
-
+.over img{
+    height: 50vh;
+    background-color: #20c997;
+   border-radius: 25%;
 }
-
-.hard-skills .text-intro h2{
+.hard-skills .text-intro h2 {
     color: #20c997;
 }
 
-.hard-skills img{
+.hard-skills img {
     max-width: 40%;
     max-height: 180px;
     margin: 30px auto;
 
 }
 
-.lijst-hs .card{
+.lijst-hs .card {
     border: none;
-/*max-width: 500px;*/
 
 }
-.lijst-hs .card-title{
+
+.lijst-hs .card-title {
 
     color: #000000;
-    /*background-color: #ffc107;*/
-
 
 }
-.lijst-hs .card-text{
+
+.lijst-hs .card-text {
     color: #212529;
 
 }
 
 
-.tools{
+.tools {
     text-align: center;
-  color: #343a40;
+    color: #343a40;
     padding: 50px 0;
     background-color: #f6e8d5;
 }
 
-.tools img{
-    max-width:10%;
+.tools img {
+    max-width: 10%;
     margin: 15px;
 }
 
-.lijst-wpl1 .scroll-link:hover{
-cursor: pointer;
+.lijst-wpl1 .scroll-link:hover {
+    cursor: pointer;
     font-weight: bold;
 }
-.lijst-wpl1  a{
+
+.lijst-wpl1 a {
     text-decoration: none;
     color: #000000;
 }
 
-/*FORMULIER CONTACT*/
-.formulier{
-padding: 20px 0;
-    background-color: #343a40;
-}
-.formulier .card{
-    border: none;
-}
-.formulier h2{
-    color: #20c997;
-}
-.formulier input, #bericht{
-border-bottom: 3px solid #4E7060;
-    background: transparent;
-}
-.formulier input:focus, #bericht:focus{
-background: #CECFD1;
-    outline: none;
-    border-bottom: 3px solid #20c997;
-    color: #ffffff;
-}
-#bericht {
-
-    outline: none;
-    resize: none;
-
-}
-.formulier button{
-    margin: 20px auto ;
-    background: #343a40;
-    border: none;
-    color: #ffffff;
-    font-weight: bold;
-border-radius: 20px;
-}
-.formulier button:hover{
-    background-color: #212529;
-}
-.formulier button::selection{
-    background-color: #20c997;
-    color: #212529;
-}
-
-
 /*CARDS PORTFOLIO*/
 
-.card{
-
+.card {
     position: relative;
     overflow: hidden;
-
 }
 
-
-.card-overlay{
+.card-overlay {
     position: absolute;
     top: 0;
     left: 0;
@@ -361,167 +247,155 @@ border-radius: 20px;
     cursor: pointer;
 
 }
-.card:hover .card-overlay{
+
+.card:hover .card-overlay {
     transform: translateX(0);
 
 }
-.card-overlay-heading{
+
+.card-overlay-heading {
     font-size: 35px;
     text-transform: capitalize;
 }
-.card-overlay-paragraph{
+
+.card-overlay-paragraph {
     font-size: 24px;
     margin-bottom: 20px;
 }
- .card-overlay-button{
+
+.card-overlay-button {
     border-radius: 20px;
     outline: none;
     cursor: pointer;
 }
-.card-image{
+
+.card-image {
     object-fit: fill;
     padding: 5px;
     height: 300px;
 }
 
-.card-info h2, .card-info span{
- color: #ffffff;
-}
-.reflectie .card-body{
-    color: #000000;
-}
 
-.reflectie .card-body, .footer{
-    background-position: right;
-}
+.header-case{
+    background-image: url("../assets/case_ownit/moodboard OWNIT2.png");
+    background-size: cover;
 
-.reflectie a, .reflectie .card-header, .modal-header{
-    background-color: #4E7060;
-    color:#ffffff;
-
-    border: none;
 }
-.modal-header .btn-close{
-   filter: invert(100%);
+.main-case{
+    background-color: #dadacf;
 }
-.main-ervaring h2{
-    color: #4E7060;
+.main-case img{
+    max-width: 600px ;
+    margin: 15px;
 }
-.main-ervaring p span{
-    color: #000000;
+.main-case a{
+    color: #212529;
+    font-weight: bold;
+    margin: 10px 20px 10px 0;
 }
-
-.cases span{
-font-weight: bold;
+.cases span {
+    font-weight: bold;
     font-size: 24px;
 
 }
 
-.uitleg, .gebruikservaring{
+.uitleg, .gebruikservaring {
     background-color: #212529;
     color: #ced4da;
 }
-.uitleg h2, .gebruikservaring h2,.uitleg span, .gebruikservaring span, .uitleg h3{
+
+.uitleg h2, .gebruikservaring h2, .uitleg span, .gebruikservaring span, .uitleg h3 {
     color: #20c997;
 }
-.uitleg span, .gebruikservaring span{
-   font-weight: lighter;
+
+.uitleg span, .gebruikservaring span {
+    font-weight: lighter;
     text-space: 1px;
 }
 
-
-.modal-content{
-    width: 80vw;
-}
-
-
-
 /*FOOTER*/
-.footer{
+.footer {
     min-height: 250px;
-    background-color: #212529;
-    display: flex;
-
+    /*background-color: #343a40;*/
 
 }
-.footer .row{
-    align-items: center;
-    justify-content: center;
-    align-content: space-evenly;
+
+.footer div {
+    margin: 15px 0;
 }
 
-.footer ul li , .footer h3{
-    color: #ffffff;
-}
-.footer ul li{
-    list-style: none;
-}
-.footer-social ul{
-    display: flex;
-    justify-content: space-between;
 
+.footer h3, .footer-social i {
+    color: #343a40;
 }
-.footer-social i{
+
+
+.footer-social i {
     font-size: 35px;
-    color: #ffffff;
-
+    margin: 15px 20px;
+    text-align: center;
 }
 
+.footer-social i:hover {
+    background-color: #343a40;
+    color: #20c997;
+    padding: 5px 10px;
+    border-radius: 50%;
+    transition: 3ms;
 
+}
+@media screen and (min-width: 800px){
+    .over img{
+        height: 90vh;
 
-@media screen and (min-width: 1000px ){
-    /*.offcanvas-left img{*/
+    }
+}
 
-    /*    max-width: 45%;*/
-    /*    max-height: 35%;*/
+@media screen and (min-width: 1000px ) {
 
-
-    /*}*/
-    .nav-desktop a{
+    .nav-desktop a {
         color: #212529;
     }
-    .nav-desktop a:hover{
+
+    .nav-desktop a:hover {
         font-weight: bold;
         color: #20c997;
     }
-.nav-desktop a:active{
-    text-decoration: underline #20c997;
 
-}
-    /*.header-banner h1{*/
-    /*    font-size: 60px;*/
-    /*}*/
-    /*.header-banner p{*/
-    /*   font-size: 26px;*/
-    /*}*/
-    /*.offcanvas-left .text-offleft {*/
+    .nav-desktop a:active {
+        text-decoration: underline #20c997;
 
-    /*    font-size: 75px;*/
-    /*}*/
-    /*.offcanvas-header h5, .principal, .offcanvas-body a{*/
-    /*    font-size: 70px;*/
-    /*}*/
-    h3{
+    }
+
+    h3 {
         font-size: 26px;
     }
 
-    body h2{
+    body h2 {
         font-size: 30px;
     }
-    .header-banner h1{  font-size:50px}
-    .header-banner p{
+
+    .header-banner h1 {
+        font-size: 45px
+    }
+
+    .header-banner p {
         font-size: 21px;
     }
-    h1{
+
+    h1 {
         font-size: 35px
     }
-    p{
+
+    p {
         font-size: 18px;
     }
-.tools img{
-    max-width:50px ;
-    margin: 15px ;
 
-}
+    .tools img {
+        max-width: 50px;
+        margin: 15px;
+
+    }
+
 
 }
