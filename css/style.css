@@ -84,8 +84,19 @@ p, ul, ol {
 /*--HEADER*/
 
 .header-cta {
-    height: 70vh;
+    height: 40vh;
 
+}
+.header-case{
+    background-image: url("../assets/case_ownit/moodboard OWNIT2.png");
+    background-size: cover;
+
+}
+.header-case img{
+    max-height: 60vh;
+}
+.header-intro{
+    height: 60vh;
 }
 
 
@@ -132,7 +143,7 @@ p, ul, ol {
 }
 
 .header-goesting .header-cta .header-banner {
-   background-color: #DADACF;
+   /*background-color: #DADACF;*/
     padding: 100px 150px
 }
 
@@ -277,14 +288,11 @@ button, .values-skills button {
 }
 
 
-.header-case{
-    background-image: url("../assets/case_ownit/moodboard OWNIT2.png");
-    background-size: cover;
 
-}
-.main-case{
-    background-color: #dadacf;
-}
+
+/*.main-case{*/
+/*    background-color: #dadacf;*/
+/*}*/
 
 .main-case .deel-3 img{
 
@@ -350,10 +358,7 @@ button, .values-skills button {
         height: 90vh;
 
     }
-     .header-cta {
-        background-color: #DADACF;
 
-    }
 }
 
 @media screen and (min-width: 1000px ) {
@@ -381,11 +386,11 @@ button, .values-skills button {
     }
 
     .header-banner h1 {
-        font-size: 45px
+        font-size: 40px
     }
 
     .header-banner p {
-        font-size: 21px;
+        font-size: 18px;
     }
 
     h1 {
