@@ -290,9 +290,6 @@ button, .values-skills button {
 
 
 
-/*.main-case{*/
-/*    background-color: #dadacf;*/
-/*}*/
 
 .main-case .deel-3 img{
 
@@ -321,7 +318,13 @@ button, .values-skills button {
     font-weight: lighter;
     text-space: 1px;
 }
+.takenpakket{
+    background-color: #F6E8D5;
+}
 
+/*.takenpakket ul li{*/
+/*   list-style: none;*/
+/*}*/
 /*FOOTER*/
 .footer {
     min-height: 250px;
