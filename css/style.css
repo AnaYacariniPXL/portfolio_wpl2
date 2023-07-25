@@ -9,16 +9,10 @@ body {
 
 }
 
-.cases {
-    /*background-color: #F2F2F2;*/
-}
-
 .principal, .offcanvas-header h5 {
     font-family: 'Belanosima', sans-serif;
     letter-spacing: 3px;
     text-transform: capitalize;
-
-
 }
 
 h1, h2, h3, h4, p, span {
@@ -55,8 +49,6 @@ p, ul, ol {
     max-height: 45px;
 }
 
-
-
 /*OVERZICHT OFF CANVAS*/
 /*OOFCANVAS RECHTS*/
 
@@ -80,12 +72,16 @@ p, ul, ol {
     text-decoration: underline #20c997;
 }
 
-
 /*--HEADER*/
 
 .header-cta {
     height: 40vh;
 
+
+}
+.header-cta:hover{
+    background-color:#F6E8D5;
+    color: #385446;
 }
 .header-case{
     background-image: url("../assets/case_ownit/moodboard OWNIT2.png");
@@ -99,53 +95,21 @@ p, ul, ol {
     height: 60vh;
 }
 
-
-/*secondary navbar*/
-.secondary-navbar {
-    position: sticky;
-    z-index: 100;
-    top: 55px;
-    /*background-color: #000000;*/
-    min-height: 80px;
-}
-
-.secondary-navbar ul {
-    /*border: 1px solid #343a40;*/
-}
-
-.secondary-navbar li {
-    margin: 0 35px;
-}
-
-.secondary-navbar a {
-    color: #ffffff;
-
-}
-
-.secondary-navbar a:hover {
-
-    border: 2px solid #ffffff;
-    color: #ffffff;
-    background-color: #343a40;
-    border-radius: 20px;
-}
-
-.secondary-navbar a:active {
-    filter: invert(100);
-}
-
-.secondary-navbar a:focus {
-    color: #ffffff;
-    /*background-color: #000000;*/
-    filter: invert(100);
-    border-radius: 20px;
-
-}
-
-.header-goesting .header-cta .header-banner {
+ .header-cta .header-banner {
    /*background-color: #DADACF;*/
     padding: 100px 150px
 }
+.header{
+    background-color: #ffffff;
+}
+.header-intro:hover{
+
+/*background-color: #e1e1ae;*/
+    background-color: #F6E8D5;
+    filter: blur(80%);
+
+}
+
 
 /*MAIN---*/
 
@@ -319,12 +283,26 @@ button, .values-skills button {
     text-space: 1px;
 }
 .takenpakket{
-    background-color: #F6E8D5;
-}
+    background-color: #343a40;
 
-/*.takenpakket ul li{*/
-/*   list-style: none;*/
+}
+.takenpakket h2{
+color: #e7e7d9;
+
+}
+.takenpakket h5{
+    background-color: #20c997;
+
+}
+.takenpakket ul li{
+    color: #e7e7d9;
+
+}
+/*.takenpakket{*/
+/*    background-color: #F6E8D5;*/
 /*}*/
+
+
 /*FOOTER*/
 .footer {
     min-height: 250px;
@@ -356,6 +334,13 @@ button, .values-skills button {
     transition: 3ms;
 
 }
+.intro-waarden{
+    cursor: pointer;
+
+    transition: background-color 0.3s ease-in-out;
+}
+
+
 @media screen and (min-width: 800px){
     .over img{
         height: 90vh;
