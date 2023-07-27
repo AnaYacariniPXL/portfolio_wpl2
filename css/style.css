@@ -366,12 +366,17 @@ color: #e7e7d9;
 }
 
 
-@media screen and (min-width: 800px){
-    .over img{
+@media screen and (min-width: 800px) {
+    .over img {
         height: 90vh;
 
     }
 
+    #intro-hover p {
+
+        margin: 45px;
+
+    }
 }
 
 @media screen and (min-width: 1000px ) {
