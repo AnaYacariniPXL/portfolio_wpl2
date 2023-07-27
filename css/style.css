@@ -28,6 +28,8 @@ p, ul, ol {
 }
 
 
+
+
 /*NAV PRINCIPAL*/
 
 .navbar-toggler {
@@ -79,10 +81,35 @@ p, ul, ol {
 
 
 }
+.header-intro:hover{
+
+    /*background-color: #e1e1ae;*/
+    background-color: #F6E8D5;
+    filter: blur(80%);
+
+}
 .header-cta:hover{
     background-color:#F6E8D5;
     color: #385446;
 }
+#intro-hover p{
+    /*font-family:  'Lobster', cursive;*/
+    font-family: 'Montez', cursive;
+    font-size:35px;
+    margin: 45px ;
+    /*color: rgba(255, 255, 255, 0);*/
+
+
+}
+
+
+#intro-hover p:hover{
+    color: #20c997;
+transition: opacity 0.3s ease-in-out;
+    font-family:  'Lobster', cursive;
+    transform: scale(150%);
+}
+
 .header-case{
     background-image: url("../assets/case_ownit/moodboard OWNIT2.png");
     background-size: cover;
@@ -96,19 +123,12 @@ p, ul, ol {
 }
 
  .header-cta .header-banner {
-   /*background-color: #DADACF;*/
     padding: 100px 150px
 }
 .header{
     background-color: #ffffff;
 }
-.header-intro:hover{
 
-/*background-color: #e1e1ae;*/
-    background-color: #F6E8D5;
-    filter: blur(80%);
-
-}
 
 
 /*MAIN---*/
