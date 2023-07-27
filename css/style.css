@@ -78,8 +78,6 @@ p, ul, ol {
 
 .header-cta {
     height: 40vh;
-
-
 }
 
 .header-intro:hover{
@@ -93,15 +91,13 @@ p, ul, ol {
     background-color:#F6E8D5;
     color: #385446;
 }
-/*#intro-hover{*/
-/*    width: 80%;*/
-/*}*/
+
 #intro-hover p{
     /*font-family:  'Lobster', cursive;*/
     font-family: 'Montez', cursive;
     font-size:40px;
     /*margin: 45px ;*/
-    margin: 20px;
+    margin: 0 20px;
     /*color: rgba(255, 255, 255, 0);*/
 
 
@@ -112,7 +108,7 @@ p, ul, ol {
     color: #20c997;
 transition: opacity 0.3s ease-in-out;
     font-family:  'Lobster', cursive;
-    transform: scale(150%);
+
 }
 
 .header-case{
@@ -124,7 +120,8 @@ transition: opacity 0.3s ease-in-out;
     max-height: 60vh;
 }
 .header-intro{
-    height: 60vh;
+    height:80vh;
+    padding: 150px 0;
 }
 
  .header-cta .header-banner {
@@ -376,6 +373,9 @@ color: #e7e7d9;
 
         margin: 45px;
 
+    }
+    #intro-hover p:hover{
+        transform: scale(150%);
     }
 }
 
