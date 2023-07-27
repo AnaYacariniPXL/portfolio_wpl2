@@ -81,6 +81,7 @@ p, ul, ol {
 
 
 }
+
 .header-intro:hover{
 
     /*background-color: #e1e1ae;*/
@@ -92,11 +93,15 @@ p, ul, ol {
     background-color:#F6E8D5;
     color: #385446;
 }
+/*#intro-hover{*/
+/*    width: 80%;*/
+/*}*/
 #intro-hover p{
     /*font-family:  'Lobster', cursive;*/
     font-family: 'Montez', cursive;
-    font-size:35px;
-    margin: 45px ;
+    font-size:40px;
+    /*margin: 45px ;*/
+    margin: 20px;
     /*color: rgba(255, 255, 255, 0);*/
 
 
