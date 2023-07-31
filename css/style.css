@@ -160,8 +160,7 @@ button, .values-skills button {
 
 .over {
 
-    color: #ffffff;
-    background-color: rgba(69, 69, 73, 0.91);
+    color: #000000;
 }
 .over img{
     height: 50vh;
