@@ -80,16 +80,13 @@ p, ul, ol {
     height: 40vh;
 }
 
-.header-intro:hover{
-
-    /*background-color: #e1e1ae;*/
-    background-color: #F6E8D5;
-    filter: blur(80%);
-
-}
+/*.header-intro:hover{*/
+/*    background: #20c997;*/
+/*    filter: blur(80%);*/
+/*}*/
 .header-cta:hover{
     background-color:#F6E8D5;
-    color: #385446;
+    /*color: #385446;*/
 }
 
 #intro-hover p{
@@ -100,16 +97,15 @@ p, ul, ol {
     margin: 0 20px;
     /*color: rgba(255, 255, 255, 0);*/
 
-
+}
+#intro-naam p{
+    font-size: 60px;
+    transform: scale(150%);
+}
+.richting{
+    position: relative;
 }
 
-
-#intro-hover p:hover{
-    color: #20c997;
-transition: opacity 0.3s ease-in-out;
-    font-family:  'Lobster', cursive;
-
-}
 
 .header-case{
     background-image: url("../assets/case_ownit/moodboard OWNIT2.png");
@@ -120,7 +116,7 @@ transition: opacity 0.3s ease-in-out;
     max-height: 60vh;
 }
 .header-intro{
-    height:80vh;
+    height:100vh;
     padding: 150px 0;
 }
 
@@ -130,9 +126,73 @@ transition: opacity 0.3s ease-in-out;
 .header{
     background-color: #ffffff;
 }
+.container-foto-banner {
+    display: flex;
+    position: relative;
+    max-height: 70vw;
+    overflow: hidden;
+}
+
+.image-banner {
+    width: 100%;
+    padding: 25px;
+}
+.animated {
+    opacity: 0;
+    transform: scale(0.8);
+    transition: opacity 0.5s ease-out, transform 0.5s ease-out;
+}
+
+.visible {
+    opacity: 1;
+    transform: scale(1);
+}
+
+
+.header-intro {
+    overflow: hidden;
+    position: relative;
+}
 
 
 
+.header-intro:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, transparent 0%, white 100%);
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform 1s ease-in-out;
+}
+
+ #foto-banner2{
+    position: absolute;
+     /*z-index: 10;*/
+    top: 0;
+    left: 0;
+}
+#foto-banner2{
+opacity: 0;
+}
+
+.header:hover #foto-banner1{
+   opacity: 0;
+    transition: opacity 0.5s ease-out;
+}
+.header:hover #foto-banner2{
+    opacity: 1;
+    transition: opacity 0.5s ease;
+
+
+
+}
+.header:hover{
+background: #dadacf;
+}
 /*MAIN---*/
 
 .values-skills img {
@@ -142,12 +202,15 @@ transition: opacity 0.3s ease-in-out;
 
 
 button, .values-skills button {
-    padding: 10px 15px;
+    padding: 10px;
     border-radius: 20px;
     background-color: #20c997;
     border: none;
     font-weight: normal;
     color: #ffffff;
+}
+button:hover{
+font-weight: bold;
 }
 
 .main-over, .card-body button {
@@ -373,8 +436,10 @@ color: #e7e7d9;
         margin: 45px;
 
     }
-    #intro-hover p:hover{
+    .header:hover .richting p{
         transform: scale(150%);
+        background: #20c997;
+
     }
 }
 
@@ -395,27 +460,27 @@ color: #e7e7d9;
     }
 
     h3 {
-        font-size: 26px;
+        font-size: 21px;
     }
 
     body h2 {
-        font-size: 30px;
+        font-size: 25px;
     }
 
     .header-banner h1 {
-        font-size: 40px
-    }
-
-    .header-banner p {
-        font-size: 18px;
-    }
-
-    h1 {
         font-size: 35px
     }
 
+    .header-banner p {
+        font-size: 16px;
+    }
+
+    h1 {
+        font-size: 30px
+    }
+
     p {
-        font-size: 18px;
+        font-size: 16px;
     }
 
     .tools img {
