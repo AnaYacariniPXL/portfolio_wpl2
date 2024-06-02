@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
 }
 
 body {
@@ -51,6 +52,9 @@ p, ul, ol {
     max-height: 45px;
 }
 
+nav .dropdown-item:focus{
+    background: #20c997;
+}
 /*OVERZICHT OFF CANVAS*/
 /*OOFCANVAS RECHTS*/
 
@@ -457,7 +461,8 @@ color: #e7e7d9;
     }
 
     .nav-desktop a:active {
-        text-decoration: underline #20c997;
+        text-decoration: underline white;
+        color: white;
 
     }
 
