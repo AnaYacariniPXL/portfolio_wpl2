@@ -8,6 +8,7 @@
 body {
     min-width: 400px;
 
+
 }
 
 .principal, .offcanvas-header h5 {
@@ -35,16 +36,31 @@ p, ul, ol {
 
 .navbar-toggler {
     border: none;
-}
 
+}
+.navbar-toggler:hover{
+ border: 1px solid #20c997;
+    background: white;
+}
+.navbar-toggler:active{
+    border: 3px solid #20c997;
+    outline: none;
+
+}
 .navbar-toggler-icon {
     border: none;
 }
 
-.navbar-toggler-icon:active {
+.navbar-toggler-icon:active, .navbar-toggler-icon:focus {
     transform: rotate(90deg);
-    border: none;
 
+
+}
+
+.btn-close:focus, .btn-close:active{
+    outline: none;
+    border: 2px solid #20c997;
+    box-shadow: 0 0 0 2px #20c997;
 }
 
 .navbar-brand img {
@@ -82,6 +98,7 @@ nav .dropdown-item:focus{
 
 .header-cta {
     height: 40vh;
+
 }
 
 /*.header-intro:hover{*/
@@ -112,12 +129,13 @@ nav .dropdown-item:focus{
 
 
 .header-case{
-    background-image: url("../assets/case_ownit/moodboard OWNIT2.png");
+    /*background-image: url("../assets/case_ownit/moodboard OWNIT2.png");*/
     background-size: cover;
 
 }
 .header-case img{
     max-height: 60vh;
+    padding-top: 80px;
 }
 .header-intro{
     height:100vh;
@@ -185,14 +203,16 @@ opacity: 0;
 background: #dadacf;
 }
 /*MAIN---*/
-
+.main, .main--eindreflectie{
+    padding-top: 80px;
+}
 .values-skills img {
     max-width: 100%;
     height: 50%;
 }
 
 
-button, .values-skills button {
+ .main button, .values-skills button {
     padding: 10px;
     border-radius: 20px;
     background-color: #20c997;
@@ -200,12 +220,12 @@ button, .values-skills button {
     font-weight: normal;
     color: #ffffff;
 }
-button:hover{
+.main button:hover{
 font-weight: bold;
     animation: background 0.3s;
 background: black;
-}
 
+}
 
 .main-over, .card-body button {
     border: none;
@@ -341,10 +361,6 @@ background: black;
     height: 300px;
 }
 
-
-
-
-
 .main-case .deel-3 img{
 
 }
@@ -388,8 +404,24 @@ color: #e7e7d9;
     color: #e7e7d9;
 
 }
-/*.takenpakket{*/
-/*    background-color: #F6E8D5;*/
+.cirkel{
+    height: 250px;
+    width: 250px;
+    background: #20c997;
+    border-radius: 100%;
+}
+.lijn{
+    border-radius: 50%;
+    border: 3px dashed #20c997;
+    width: 260px;
+    height: 250px;
+
+}
+/*.main--eindreflectie{*/
+/*    background-image: url("../assets/pixabay_images/green-2075575_1280.jpg");*/
+/*    background-size: cover;*/
+/*background-position: center;*/
+
 /*}*/
 
 
